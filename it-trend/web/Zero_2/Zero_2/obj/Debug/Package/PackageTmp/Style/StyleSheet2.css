@@ -1,0 +1,127 @@
+﻿div.validationpage{
+    padding: 0px 0px 0px 0px;
+    font-size:15px;
+    background:#e1e5ec;
+    height:auto;
+}
+div.leftvalidation{
+    padding:0px 0px 0px 0;
+    margin: 0px 0px 0px 0px;    
+    background:#e1e5ec;
+    width:auto;
+    height:auto;
+}
+.left1{
+    background:white;
+    padding:20px 20px 20px 40px;
+    margin: 0 0 20px 0;
+    border-radius:4px;
+ }
+.left2{
+    background:white;
+    padding:20px 20px 20px 40px;
+    margin: 0 0 20px 0;
+    border-radius:4px;
+ }
+.left3{
+    background:white;
+    padding:20px 20px 20px 40px;
+    margin: 0 0 20px 0;
+    border-radius:4px;
+ }
+div.validationpage li{
+    display: inline;    
+}
+div.imagefirm{
+    padding:5px 0 0 0px;
+    width:1000px;
+    height:306px;
+    background:white;
+    border-radius:4px;
+}
+div.redphone{
+    border-radius:4px;   
+}
+.contacts{
+    margin-top:20px;
+    border-radius:4px;
+    padding:8px 8px 8px 8px;
+    background:white;
+    width:294px;
+    height:auto;
+}
+.cont{
+    background-color:#4d4c4c;
+    text-align:center; 
+    width:290px;
+    color:white;   
+    padding-top:14px; 
+    padding-bottom:14px;
+    font-size:20px;
+    font-family:'Segoe UI';
+}
+.contimage{
+    padding-left:44px;
+    padding-top:10px;
+}
+.contul{
+    padding-top:20px;
+    background-color:white;
+    width:290px;
+    height:150px;   
+}
+ul.ul {    
+    font-size:18px;
+    color: white;
+    margin: 0px 0px 0px 20px; 
+   }
+ul.ul li {    
+    display: inline; 
+    margin-right: 0px; 
+     
+    position: relative;
+    float: left;
+    margin: 0px 0px 0px 6px;   
+    font-family:Calibri;
+   }
+ul.ul li a {
+    padding: 3px 10px 4px;
+    display: block;    
+ }
+ul.ul a{
+    background-color:white; 
+    color:#3f658e;
+}
+
+
+div.imagefirm:hover{
+    box-shadow: 0px 0px 4px #6374b5; 
+}
+div.redphone:hover{
+    box-shadow: 0px 0px 4px #6374b5; 
+}
+div.contacts:hover{
+    box-shadow: 0px 0px 4px #6374b5; 
+}
+div.left1:hover{
+    box-shadow: 0px 0px 4px #6374b5; 
+}
+div.left2:hover{
+    box-shadow: 0px 0px 4px #6374b5; 
+}
+div.left3:hover{
+    box-shadow: 0px 0px 4px #6374b5; 
+}
+div.imagefirm img{
+    margin: 0px 0 0 50px;
+    width:900px;
+}
+div.rightvalidation{
+    background:#e1e5ec;
+    width:310px;
+    height:auto;
+}
+.Button1{
+    height:100px;
+}
+

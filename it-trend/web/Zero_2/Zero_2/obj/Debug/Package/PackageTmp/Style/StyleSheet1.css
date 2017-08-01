@@ -1,0 +1,164 @@
+﻿@charset "utf-8";
+*{
+    margin:0;
+    margin:auto;
+    padding:0;
+    outline:none;
+}
+header{
+    min-width:1000px;
+}
+div.all{
+    width:1000px;
+    /*min-height:650px;*/
+     height:auto;
+}
+body{   
+    height:100%;
+    width:100%;
+    min-width:1000px;
+    color:#333;
+    background:#e1e5ec;
+    font-size:1em;
+    font-family:Yu Gothic UI Semibold;
+    min-height:100%;
+}
+/*тело страницы*/
+.RegularExpressionValidator1{
+    font-family:'Segoe UI';
+    font-size:14px;
+}
+
+/*Цвет выделения*/
+::selection {background:#4890b4; color:white;}
+::-moz-selection {background:#444; color:white;}
+
+/*элемент красоты*/
+
+.headtext li a:hover{
+    border-bottom: 3px solid #7ca6ff;
+}
+/*
+.headtext li a.Active{
+    text-decoration:underline;
+    border-bottom: 3px solid #7ca6ff;
+}
+    */
+#headtxt li a:hover{
+    border-bottom: 3px solid #4abfb4;
+}
+#headtxt li a.Active{
+    text-decoration:underline;
+    border-bottom: 3px solid #3352a7;
+}
+/*шапка*/
+header{  
+    width:98%;
+    height:120px;
+    background-color:#5c6982;   
+    background-repeat:no-repeat;
+    background-position:center;
+    padding:1%;
+    margin-top:10px;    
+}
+footer{
+    width:100%;
+    min-height:50px;
+}
+/*текст в шапке, пункты навигации сайта*/
+ul.headtext {
+    font-size:18px;
+    color: white;
+    margin: 0px 0px 0px 20px; 
+    /*padding: 0px 0px 0px 180px; */
+   }
+ul.headtext li {    
+    display: inline; 
+    margin-right: 0px; 
+     
+    position: relative;
+    float: left;
+    margin: 20px 0px 0px 6px;   
+    font-family:Calibri;
+   }
+ul.headtext li a {
+    padding: 3px 10px 4px;
+    display: block;    
+ }
+/*текст в шапке*/
+ul.headtext a{
+    background:#5c6982; 
+    /*color:#3C3C3C;*/
+    color:lightgrey;
+}
+/*кнопка входа справа*/
+div.leftenter{
+    background-color:#4abfb4;
+    /*#a72326*/
+    width:auto;    
+    padding:6px 20px 8px 20px;
+    margin-top:16px;
+    /*background-color:#213153;
+    background-color:#f38366;*/
+    color:white;
+    font-size:16px;
+    font-family:"Segoe UI";
+    color:white;
+    border-radius:4px;
+}
+
+a{    
+    text-decoration:none;
+    color:white;
+}
+/*название фирмы*/
+ul.namefirm li{   
+    display: inline;
+    font-size:50px;
+    padding: 0px 0px 0px 35px;
+    color:white;
+}
+ul.namefirm li a{
+    padding: 30px 0 0 0;
+    color:lightgray;
+}
+img.image{
+    margin:0px 0px 0px 335px;
+}
+div.headname{
+    width:1000px;    
+}
+div.ul{
+    width:1000px;
+}
+
+
+
+/*всплывающее окно*/
+.b-container{
+    width:240px;
+    height:auto;
+    background-color: #ccc;
+    margin:0px auto;
+    padding:10px;
+    font-size:30px;
+    color: blue;
+}
+.b-popup{    
+    width:1010px;
+    min-height:100%;
+    /*background-color: rgba(0,0,0,0.1);*/         
+    overflow:hidden;
+    position:absolute;    
+    top:0px;
+}   
+.b-popup .b-popup-content{
+    margin:150px 0px 0px 740px;
+    width:220px;
+    height: auto;
+    padding:20px 20px 20px 20px;
+    background-color: white;
+    border-radius:3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.29);
+}
+

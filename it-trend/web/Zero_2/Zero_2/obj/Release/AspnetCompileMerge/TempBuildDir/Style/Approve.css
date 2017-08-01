@@ -1,0 +1,217 @@
+﻿div.approvecommission{
+    width:1000px;
+    height:550px;
+    font-family:'Segoe UI';
+}
+div.left{
+    background:#465566;
+    height:800px;
+    width:200px;
+    padding-left:20px;
+    padding-right:20px;
+}
+div.right{     
+    height:800px;
+    width:760px;
+}
+div.listcommission{
+    background:#e1e5ec;
+    height:800px;
+    width:480px;
+    padding-right:20px;
+    padding-left:20px;
+}
+div.exit{
+    background:#44556c;
+    padding-left:20px;
+    padding-right:20px;
+    height:800px;
+    width:200px;
+}
+
+.but2{
+    background-color:#3ca773;
+}
+.but2:hover{
+    background-color:#369667;
+}
+.but1{
+    background-color:#4abfb4; 
+}
+.but1:hover{
+    background-color:#3B9990;
+}
+.gos{
+    margin-top:38px;
+}
+.gos2{    
+    margin-left:14px;
+}
+
+.list1{
+    font-family:'Segoe UI';
+    font-size:16px;
+    background-color:#465566;
+    border-radius:4px;
+    height:30px;
+    width:340px;
+    margin-left:14px;
+    margin-top:10px;
+    margin-bottom:10px;
+    color:white;
+}
+.list1 option{
+    color:lightgray;
+}
+.list2{
+    font-family:'Segoe UI';
+    font-size:14px;
+    background-color:#465566;
+    border-radius:4px;
+    height:24px;  
+    min-width:50px;
+    margin-left:0px;
+    margin-top:10px;
+    margin-bottom:10px;
+    color:white;
+}
+.list2 option{
+    color:lightgray;
+}
+
+/*Утвердить*/
+.app{
+    border-radius:4px;
+    margin-left:14px;
+    background-color: #4CAF50; 
+    border: none;    
+    color: white;
+    padding:10px 50px;
+    text-align: center;    
+    text-decoration: none;         
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+
+.approvebut{
+     width:170px;
+     height:40px;
+     border-radius:4px;
+     margin: 0px 14px;
+     font-size: 14px;  
+}
+.button {   
+   
+    background-color: #4CAF50; /* Green */
+    border: none;    
+    color: white;
+    /*padding: 14px 10px;*/
+    text-align: center;    
+    text-decoration: none;
+    display: inline-block;     
+    -webkit-transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: #369667; 
+    color: white; 
+    /*border: 2px solid #4CAF50;*/
+}
+
+.button1:hover {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.29);
+    color: #369667;
+}
+.button2 {
+    background-color: #4abfb4; 
+    color: white; 
+    /*border: 2px solid #4CAF50;*/
+}
+
+.button2:hover {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.29);
+    color: #4abfb4;
+}
+
+/*всплывающее окно*/
+.up{
+    font-family:'Segoe UI';
+}
+
+
+
+.a-container1{
+    width:480px;
+    height:auto;
+    background-color: grey;
+    margin:0px auto;
+    padding:10px;
+}
+.a-approveclass{    
+    width:1010px;
+    min-height:100%;
+    /*background-color: rgba(0,0,0,0.1);*/         
+    overflow:hidden;
+    position:absolute;    
+    top:0px;
+}   
+.a-approveclass .a-content{
+    margin:180px 0px 0px 260px;
+    width:480px;
+    height: 240px;    
+    background-color: white;
+    border-radius:3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.29);
+}
+
+
+.down {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;   
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;    
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    
+}
+
+.downbut1 {
+    border-top:1px solid rgba(0, 0, 0, 0.29)   ; 
+    border-right:1px solid rgba(0, 0, 0, 0.29)   ; 
+    height:61px;
+    width:240px;
+    float:left;
+    background-color: white;
+    color: black;
+   
+}
+
+.downbut1:hover {
+    background-color: #555555;
+    color: white;
+}
+.downbut2 {
+    border-top:1px solid rgba(0, 0, 0, 0.29)   ; 
+    font-family:'Segoe UI';
+    font-size:17px;
+    float:right;
+    padding:19px 82px;
+    background-color: white;
+    color: black;
+    /*border: 2px solid #555555;*/
+}
+
+.downbut2:hover {
+    background-color: #555555;
+    color: white;
+}

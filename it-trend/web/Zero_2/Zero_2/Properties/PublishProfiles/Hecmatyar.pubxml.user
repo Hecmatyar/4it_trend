@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Этот файл используется в процессе публикации или упаковки вашего веб-проекта. Вы можете настроить поведение процесса,
+изменив этот файл MSBuild. Дополнительные сведения см. по адресу http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>ftp://MetalTranceIsoliths.somee.com/www.MetalTranceIsoliths.somee.com</_PublishTargetUrl>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAlWylpBl4LU63jZ8YPv/hJwAAAAACAAAAAAAQZgAAAAEAACAAAABydlQRUOmD4oQfev4DEodxmC6C9q1DyR0NlQCwtp9yRQAAAAAOgAAAAAIAACAAAABuUGPSsgNgP74HRfbiYtfnljFNiKlYVvmmjxrViH6L4yAAAADtBRcKVBlMwEdiH7rB+qan3dR2TbAFelryJx21AllqiUAAAAABCdDSToYuQPYArJap0hSSz8/+ji/IxQdElmqiy4JqB7JRnT2vj1DE8jNn61s+D0Dymk01KrDUdU+KomPfTgIm</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>04/26/2016 12:52:55</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>04/26/2016 12:52:55</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>04/26/2016 12:52:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>04/26/2016 12:52:49</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>04/26/2016 12:52:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>04/26/2016 12:52:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>04/26/2016 12:52:54</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>04/26/2016 12:52:53</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>04/26/2016 12:52:47</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>04/26/2016 12:52:35</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>04/26/2016 12:52:33</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>04/26/2016 12:52:33</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>04/26/2016 12:52:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>04/26/2016 12:52:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>04/26/2016 12:52:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>04/26/2016 12:52:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>04/26/2016 12:52:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>04/26/2016 12:52:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>04/26/2016 12:52:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>04/26/2016 12:52:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>04/26/2016 12:52:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>04/26/2016 12:52:34</publishTime>
+    </File>
+    <File Include="bin/Zero_2.dll">
+      <publishTime>06/23/2016 20:16:22</publishTime>
+    </File>
+    <File Include="bin/Zero_2.pdb">
+      <publishTime>06/23/2016 20:16:22</publishTime>
+    </File>
+    <File Include="bin/Zero_2.XmlSerializers.dll">
+      <publishTime>06/19/2016 18:07:10</publishTime>
+    </File>
+    <File Include="Image/1com.jpg">
+      <publishTime>06/23/2016 19:53:57</publishTime>
+    </File>
+    <File Include="Image/1gov.jpg">
+      <publishTime>06/09/2016 21:28:04</publishTime>
+    </File>
+    <File Include="Image/1gov.png">
+      <publishTime>06/23/2016 19:53:57</publishTime>
+    </File>
+    <File Include="Image/2com.jpg">
+      <publishTime>06/23/2016 19:53:57</publishTime>
+    </File>
+    <File Include="Image/3com.jpg">
+      <publishTime>06/23/2016 19:53:57</publishTime>
+    </File>
+    <File Include="Image/4com.jpg">
+      <publishTime>06/23/2016 19:53:57</publishTime>
+    </File>
+    <File Include="Image/5com.jpg">
+      <publishTime>06/23/2016 19:53:57</publishTime>
+    </File>
+    <File Include="Image/6com.jpg">
+      <publishTime>06/23/2016 19:53:57</publishTime>
+    </File>
+    <File Include="Image/bodet.jpg">
+      <publishTime>04/30/2016 14:10:42</publishTime>
+    </File>
+    <File Include="Image/firmlogo.jpg">
+      <publishTime>04/27/2016 23:54:35</publishTime>
+    </File>
+    <File Include="Image/ks.jpg">
+      <publishTime>04/30/2016 12:05:13</publishTime>
+    </File>
+    <File Include="Image/logo.jpg">
+      <publishTime>04/27/2016 23:55:19</publishTime>
+    </File>
+    <File Include="Image/ministry.png">
+      <publishTime>06/21/2016 17:28:54</publishTime>
+    </File>
+    <File Include="Image/on.png">
+      <publishTime>06/06/2016 23:02:36</publishTime>
+    </File>
+    <File Include="Image/red.jpg">
+      <publishTime>04/30/2016 13:27:07</publishTime>
+    </File>
+    <File Include="Image/redl.jpg">
+      <publishTime>04/30/2016 13:36:40</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>04/26/2016 12:52:56</publishTime>
+    </File>
+    <File Include="Page/Approve.aspx">
+      <publishTime>06/21/2016 18:46:43</publishTime>
+    </File>
+    <File Include="Page/Commision.aspx">
+      <publishTime>06/09/2016 21:41:37</publishTime>
+    </File>
+    <File Include="Page/Conducting.master">
+      <publishTime>06/09/2016 17:08:21</publishTime>
+    </File>
+    <File Include="Page/ConductingPage_Plan.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Page/ConductingPage_Re.aspx">
+      <publishTime>06/17/2016 21:53:26</publishTime>
+    </File>
+    <File Include="Page/ConductingPage_Request.aspx">
+      <publishTime>06/17/2016 21:51:58</publishTime>
+    </File>
+    <File Include="Page/ConductingPage_UnPlan.aspx">
+      <publishTime>06/17/2016 21:51:33</publishTime>
+    </File>
+    <File Include="Page/Contacts.aspx">
+      <publishTime>06/21/2016 18:40:30</publishTime>
+    </File>
+    <File Include="Page/Default.aspx">
+      <publishTime>04/26/2016 20:37:25</publishTime>
+    </File>
+    <File Include="Page/DocPage.aspx">
+      <publishTime>06/21/2016 17:34:48</publishTime>
+    </File>
+    <File Include="Page/Employees.aspx">
+      <publishTime>06/19/2016 19:26:24</publishTime>
+    </File>
+    <File Include="Page/MasterPage.Master">
+      <publishTime>06/21/2016 17:46:20</publishTime>
+    </File>
+    <File Include="Page/MasterPageAdmin.Master">
+      <publishTime>06/09/2016 17:03:10</publishTime>
+    </File>
+    <File Include="Page/MasterPageEmployees.Master">
+      <publishTime>06/21/2016 17:46:31</publishTime>
+    </File>
+    <File Include="Page/Profile.aspx">
+      <publishTime>04/06/2016 22:52:59</publishTime>
+    </File>
+    <File Include="Page/ValidationPage.aspx">
+      <publishTime>06/21/2016 17:21:22</publishTime>
+    </File>
+    <File Include="scripts/ai.0.15.0-build58334.js">
+      <publishTime>04/26/2016 12:52:56</publishTime>
+    </File>
+    <File Include="scripts/ai.0.15.0-build58334.min.js">
+      <publishTime>04/26/2016 12:52:56</publishTime>
+    </File>
+    <File Include="scripts/authorization.js">
+      <publishTime>03/06/2016 13:09:30</publishTime>
+    </File>
+    <File Include="scripts/dropdown.js">
+      <publishTime>06/06/2016 15:56:59</publishTime>
+    </File>
+    <File Include="scripts/Fill_list.js">
+      <publishTime>06/06/2016 20:02:30</publishTime>
+    </File>
+    <File Include="scripts/jquery-1.7.2.min.js">
+      <publishTime>03/06/2016 15:16:51</publishTime>
+    </File>
+    <File Include="Style/Approve.css">
+      <publishTime>06/21/2016 18:46:40</publishTime>
+    </File>
+    <File Include="Style/CommissionStyle.css">
+      <publishTime>06/09/2016 21:39:38</publishTime>
+    </File>
+    <File Include="Style/downlist.css">
+      <publishTime>05/06/2016 23:32:02</publishTime>
+    </File>
+    <File Include="Style/dropdown.png">
+      <publishTime>05/24/2016 20:08:24</publishTime>
+    </File>
+    <File Include="Style/EmployeesStyle.css">
+      <publishTime>06/21/2016 18:43:37</publishTime>
+    </File>
+    <File Include="Style/StyleCond.css">
+      <publishTime>06/21/2016 18:42:34</publishTime>
+    </File>
+    <File Include="Style/StyleContacts.css">
+      <publishTime>06/21/2016 18:22:55</publishTime>
+    </File>
+    <File Include="Style/StyleFile.css">
+      <publishTime>04/06/2016 00:12:56</publishTime>
+    </File>
+    <File Include="Style/StyleSheet1.css">
+      <publishTime>06/16/2016 11:02:25</publishTime>
+    </File>
+    <File Include="Style/StyleSheet2.css">
+      <publishTime>06/21/2016 17:34:53</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/22/2016 20:58:39</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

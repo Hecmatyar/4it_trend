@@ -1,0 +1,265 @@
+﻿
+.curr 
+{ 
+    padding: 2px 6px; 
+    border: solid 1px #ddd; 
+    background: #3f7a82; 
+    color:White; 
+} 
+.pager{ 
+    padding-bottom:10px; 
+    width:auto;
+    text-align:center;
+    margin-top:20px;
+} 
+.next,.num 
+{ 
+    padding: 2px 6px; 
+    border: solid 1px #ddd; 
+    text-decoration: none; 
+    color: #2E8B57; 
+} 
+.num:hover, .next:hover 
+{ 
+    background-color: #fff; 
+    color: #1B5E20; 
+}
+
+
+
+
+
+.employees{
+    min-height:760px;
+    width:1000px;
+    font-family:'Segoe UI';
+}
+.leftemployees{
+    padding-left:34px;
+    color:white;
+    height:860px;
+    width:216px;
+    background-color:#44556c;
+    float:left;
+}
+.rightemployees{
+    height:860px;    
+    width:750px;
+    float:right;
+    background-color:white;
+}
+
+.it{
+     font-size: 16px; 
+     padding-bottom:10px;
+     padding-top:10px;
+     width:180px;
+     font-size:13px;
+     margin-bottom:10px;
+}
+.search{
+     font-size: 16px; 
+     height:35px;
+     width:100px;
+}
+.styleleftbut{
+    background-color: #44556c; 
+    border: none;    
+    color: white;   
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;      
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border:1px solid white;
+    border-radius:3px;
+}
+.styleleftbut:hover{
+    background-color: white;    
+    color: #44556c;
+}
+.reversestyleleftbut{
+    background-color: white; 
+    border: none;    
+    color: #44556c;   
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;      
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;  
+    border-radius:3px;
+     border:1px solid white;
+}
+.reversestyleleftbut:hover{
+    background-color: #44556c;   
+    border:1px solid white; 
+    color: white;
+}
+
+.text{
+    padding-left:10px;
+    color:white;
+    font-size:16px;
+    vertical-align:central;
+    height:26px;
+    background-color: #44556c;
+    border:1px solid white;
+    border-radius:3px;
+    font-family:'Segoe UI';
+    width:170px;
+}
+
+.up{
+    height:70px;
+    width:750px;
+    background-color:white;
+    padding-top:18px;
+}
+.down{
+    height:532px;
+    width:750px;
+}
+
+.upbut{
+    border: none;    
+    color: white;
+    padding: 10px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.3s; 
+    transition-duration: 0.3s;
+    cursor: pointer;
+    border-radius:3px;
+}
+.bt1{
+    margin-left:30px;
+    background-color: white; 
+    color: #494949;
+    border: 2px solid #5c6982;
+}
+
+.bt1:hover {
+    background-color: #5c6982;
+    color: white;
+}
+.bt1reverse{
+    margin-left:30px;
+    background-color: #5c6982; 
+    color: white;   
+    border: 2px solid #5c6982; 
+}
+
+.bt1reverse:hover {
+    background-color: white;
+    color: #494949;
+    border: 2px solid #5c6982;
+}
+.bt2{
+    background-color: white; 
+    color: #494949; 
+    border: 2px solid #4CAF50;
+}
+
+.bt2:hover {
+    background-color: #4CAF50;
+    color: white;
+    border: 2px solid #4CAF50;
+}
+.bt2reverse{
+    background-color: #4CAF50; 
+    color:white;   
+    border: 2px solid #4CAF50;
+}
+
+.bt2reverse:hover {
+    background-color: white;
+    color: #494949;
+    border: 2px solid #4CAF50;
+}
+.bt3{
+    background-color: white; 
+    color: #494949; 
+    border: 2px solid #4abfb4;
+}
+
+.bt3:hover {
+    background-color: #4abfb4;
+    color: white;
+}
+.bt3reverse{
+    background-color: #4abfb4; 
+    color: white;   
+    border: 2px solid #4abfb4;  
+}
+
+.bt3reverse:hover {
+    background-color:white ;
+    color: #494949;
+    border: 2px solid #4abfb4;
+}
+.bt4{
+    background-color: white; 
+    color: #494949; 
+    border: 2px solid #eec645;
+}
+
+.bt4:hover {
+    background-color: #eec645;
+    color: white;
+}
+.bt4reverse{
+    background-color: #eec645; 
+    color:white;  
+    border: 2px solid #eec645;   
+}
+
+.bt4reverse:hover {
+    background-color:white ;
+    color:  #494949;
+    border: 2px solid #eec645;
+}
+.bt5{
+    background-color: white; 
+    color: #494949; 
+    border: 2px solid #f38366;
+}
+
+.bt5:hover {
+    background-color: #f38366;
+    color: white;
+}
+.bt5reverse{
+    background-color: #f38366; 
+    color: white;   
+    border: 2px solid #f38366; 
+}
+
+.bt5reverse:hover {
+    background-color: white;
+    color: #494949;
+    border: 2px solid #f38366;
+}
+.upemp{
+    text-align:left;
+    width:215px;
+    padding:10px;
+    -webkit-transition-duration: 0.3s; 
+    transition-duration: 0.3s;
+}
+.upemp:hover{
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 6px 12px 0 rgba(0, 0, 0, 0.29);
+}
+
+
+
+
+
+
+
+
+

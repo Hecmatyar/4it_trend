@@ -1,0 +1,42 @@
+D:\Универ\4 курс\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\bin\Debug\Server.exe.config
+D:\Универ\4 курс\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\bin\Debug\Server.exe
+D:\Универ\4 курс\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\bin\Debug\Server.pdb
+D:\Универ\4 курс\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\obj\Debug\MainWindow.g.cs
+D:\Универ\4 курс\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\obj\Debug\App.g.cs
+D:\Универ\4 курс\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\obj\Debug\Server_MarkupCompile.cache
+D:\Универ\4 курс\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\obj\Debug\Server_MarkupCompile.lref
+D:\Универ\4 курс\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\obj\Debug\MainWindow.baml
+D:\Универ\4 курс\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\obj\Debug\Server.g.resources
+D:\Универ\4 курс\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\obj\Debug\Server.Properties.Resources.resources
+D:\Универ\4 курс\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\obj\Debug\Server.csproj.GenerateResource.Cache
+D:\Универ\4 курс\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\obj\Debug\Server.exe
+D:\Универ\4 курс\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\obj\Debug\Server.pdb
+D:\Универ\4 курс\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+D:\Универ\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\bin\Debug\Server.exe.config
+D:\Универ\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\obj\Debug\Server.exe
+D:\Универ\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\obj\Debug\Server.pdb
+D:\Универ\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\bin\Debug\Server.exe
+D:\Универ\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\bin\Debug\Server.pdb
+D:\Универ\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+D:\Универ\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\obj\Debug\MainWindow.g.cs
+D:\Универ\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\obj\Debug\App.g.cs
+D:\Универ\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\obj\Debug\Server_MarkupCompile.cache
+D:\Универ\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\obj\Debug\Server_MarkupCompile.lref
+D:\Универ\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\obj\Debug\MainWindow.baml
+D:\Универ\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\obj\Debug\Server.g.resources
+D:\Универ\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\obj\Debug\Server.Properties.Resources.resources
+D:\Универ\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\obj\Debug\Server.csproj.GenerateResource.Cache
+H:\university\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\bin\Debug\Server.exe.config
+H:\university\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\bin\Debug\Server.exe
+H:\university\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\bin\Debug\Server.pdb
+H:\university\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+H:\university\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\obj\Debug\MainWindow.g.cs
+H:\university\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\obj\Debug\App.g.cs
+H:\university\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\obj\Debug\Server_MarkupCompile.cache
+H:\university\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\obj\Debug\Server_MarkupCompile.lref
+H:\university\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\obj\Debug\MainWindow.baml
+H:\university\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\obj\Debug\Server.g.resources
+H:\university\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\obj\Debug\Server.Properties.Resources.resources
+H:\university\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\obj\Debug\Server.csproj.GenerateResource.Cache
+H:\university\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\obj\Debug\Server.exe
+H:\university\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Server\Server\obj\Debug\Server.pdb

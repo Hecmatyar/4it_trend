@@ -1,0 +1,57 @@
+D:\Универ\Курсач лето 2016\WindowsApp\WindowsApp\bin\Debug\WindowsApp.exe.config
+D:\Универ\Курсач лето 2016\WindowsApp\WindowsApp\bin\Debug\WindowsApp.exe
+D:\Универ\Курсач лето 2016\WindowsApp\WindowsApp\bin\Debug\WindowsApp.pdb
+D:\Универ\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\WindowsApp.csprojResolveAssemblyReference.cache
+D:\Универ\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\MainWindow.g.cs
+D:\Универ\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\App.g.cs
+D:\Универ\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\WindowsApp_MarkupCompile.cache
+D:\Универ\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\WindowsApp_MarkupCompile.lref
+D:\Универ\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\MainWindow.baml
+D:\Универ\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\WindowsApp.g.resources
+D:\Универ\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\WindowsApp.Properties.Resources.resources
+D:\Универ\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\WindowsApp.csproj.GenerateResource.Cache
+D:\Универ\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\WindowsApp.exe
+D:\Универ\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\WindowsApp.pdb
+D:\Универ\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\Report.g.cs
+D:\Универ\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\Report.baml
+D:\Универ\Курсач лето 2016\WindowsApp\WindowsApp\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Универ\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\Request.g.cs
+D:\Универ\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\Request.baml
+D:\Универ\3 курс\Курсач лето 2016\WindowsApp\WindowsApp\bin\Debug\WindowsApp.exe.config
+D:\Универ\3 курс\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\WindowsApp.exe
+D:\Универ\3 курс\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\WindowsApp.pdb
+D:\Универ\3 курс\Курсач лето 2016\WindowsApp\WindowsApp\bin\Debug\WindowsApp.exe
+D:\Универ\3 курс\Курсач лето 2016\WindowsApp\WindowsApp\bin\Debug\WindowsApp.pdb
+D:\Универ\3 курс\Курсач лето 2016\WindowsApp\WindowsApp\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Универ\3 курс\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\WindowsApp.csprojResolveAssemblyReference.cache
+D:\Универ\3 курс\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\MainWindow.g.cs
+D:\Универ\3 курс\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\Report.g.cs
+D:\Универ\3 курс\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\Request.g.cs
+D:\Универ\3 курс\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\App.g.cs
+D:\Универ\3 курс\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\WindowsApp_MarkupCompile.cache
+D:\Универ\3 курс\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\WindowsApp_MarkupCompile.lref
+D:\Универ\3 курс\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\MainWindow.baml
+D:\Универ\3 курс\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\Report.baml
+D:\Универ\3 курс\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\Request.baml
+D:\Универ\3 курс\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\WindowsApp.g.resources
+D:\Универ\3 курс\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\WindowsApp.Properties.Resources.resources
+D:\Универ\3 курс\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\WindowsApp.csproj.GenerateResource.Cache
+H:\university\3 курс\Курсач лето 2016\WindowsApp\WindowsApp\bin\Debug\WindowsApp.exe.config
+H:\university\3 курс\Курсач лето 2016\WindowsApp\WindowsApp\bin\Debug\WindowsApp.exe
+H:\university\3 курс\Курсач лето 2016\WindowsApp\WindowsApp\bin\Debug\WindowsApp.pdb
+H:\university\3 курс\Курсач лето 2016\WindowsApp\WindowsApp\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+H:\university\3 курс\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\WindowsApp.csprojResolveAssemblyReference.cache
+H:\university\3 курс\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\MainWindow.g.cs
+H:\university\3 курс\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\Report.g.cs
+H:\university\3 курс\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\Request.g.cs
+H:\university\3 курс\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\App.g.cs
+H:\university\3 курс\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\WindowsApp_MarkupCompile.cache
+H:\university\3 курс\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\WindowsApp_MarkupCompile.lref
+H:\university\3 курс\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\MainWindow.baml
+H:\university\3 курс\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\Report.baml
+H:\university\3 курс\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\Request.baml
+H:\university\3 курс\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\WindowsApp.g.resources
+H:\university\3 курс\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\WindowsApp.Properties.Resources.resources
+H:\university\3 курс\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\WindowsApp.csproj.GenerateResource.Cache
+H:\university\3 курс\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\WindowsApp.exe
+H:\university\3 курс\Курсач лето 2016\WindowsApp\WindowsApp\obj\Debug\WindowsApp.pdb

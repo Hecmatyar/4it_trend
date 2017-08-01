@@ -1,0 +1,28 @@
+﻿div.profilepage{    
+    width:1000px;
+    font-family:'Segoe UI';
+     
+}
+div.infoprofile{    
+    width:1000px;    
+    background:#44556c; 
+    font-family:'Segoe UI';
+}
+div.leftprofile{
+    width:270px; 
+    height:inherit;
+    background:#44556c;   
+    padding:0px 20px 0px 20px; 
+}
+div.rightprofile{
+    width:650px;    
+    height:100%;
+    background:#eceef1;
+    margin-left:310px;
+    padding:0px 20px 0px 20px;     
+}
+div.validationprofile{    
+    width:960px;
+    background:#5c6982;
+    padding:0px 20px 0px 20px; 
+}

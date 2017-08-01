@@ -1,0 +1,186 @@
+﻿.commissionpage{
+    background-color:white;
+    font-family:'Segoe UI';    
+}
+.attestationplan{   
+    width:1000px;
+    height:250px;
+    
+    /*background-color:gray;*/
+}
+.upplan {        
+    margin-top:40px;
+    float: left;
+    margin-left: 34px;
+    height: 190px;
+    width: 500px;
+    -webkit-transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.3s;
+}
+.upplan:hover{
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 6px 12px 0 rgba(0, 0, 0, 0.29);
+}
+.plan{
+    color:#626262;
+    padding-left:20px;
+    padding-top:10px;
+    width:480px;
+    margin: 0 auto;
+    height:30px;
+    background-color:white;
+}
+.dateplan{
+     color:white;
+     text-align:center;
+     width:500px;
+     height:100px;
+}
+.leftdate{
+    padding-top:10px;
+    width:249px;
+    height:100px;
+    float:left;
+    background:#4caf50;
+    border-right:1px solid white;
+}
+.rightdate{
+    padding-top:10px;
+    width:250px;
+    height:100px;
+    float:right;
+    background:#4caf50;
+}
+.downplan{
+    padding-top:15px;
+    text-align:center;
+    color:#626262;
+    width:500px;
+    height:30px;
+}
+.leftdown{
+    float:left;
+    width:250px;
+    height:30px;
+    background-color:white;
+}
+.rightdown{
+    float:right;
+    width:250px;
+    height:30px;
+    background-color:white;
+}
+.leftdate1{
+    padding-top:10px;
+    width:249px;
+    height:100px;
+    float:left;
+    background:#d9534f;
+    border-right:1px solid white;
+}
+.rightdate1{
+    padding-top:10px;
+    width:250px;
+    height:100px;
+    float:right;
+    background:#d9534f;
+}
+
+
+/*вывод комиссии*/
+
+.imagecom{
+    
+    border-radius:40px;
+    height:80px;
+    width:80px;
+}
+.upcomm{
+    width:310px;
+    height:100px;
+     -webkit-transition-duration: 0.3s; 
+    transition-duration: 0.3s;
+}
+.upcomm:hover{
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 6px 12px 0 rgba(0, 0, 0, 0.29);
+}
+.upcommgover{
+    margin-top:75px;
+    width:385px;
+    height:120px;
+     -webkit-transition-duration: 0.3s; 
+    transition-duration: 0.3s;
+}
+.upcommgover:hover{
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 6px 12px 0 rgba(0, 0, 0, 0.29);
+}
+.infocommgover{
+    float:right;
+    padding-left:15px;
+    text-align:left;
+    width:270px;
+    height:120px;
+}
+.imagec{
+    padding-top:10px;
+    padding-left:10px;
+    float:left;
+    width:90px;
+    height:90px;
+}
+.infocomm{
+    float:right;
+    padding-left:15px;
+    text-align:left;
+    width:195px;
+    height:100px;
+}
+
+/*аттестация по заявкам*/
+.upplan2 {        
+    margin-top:40px;
+    float: left;
+    margin-left: 34px;
+    height: 190px;
+    width: 300px;
+    -webkit-transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.3s;
+}
+.upplan2:hover{
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 6px 12px 0 rgba(0, 0, 0, 0.29);
+}
+.plan2{
+    color:#626262;
+    padding-left:20px;
+    padding-top:10px;
+    width:280px;
+    margin: 0 auto;
+    height:30px;
+    background-color:white;
+}
+.dateplan2{
+     color:white;
+     text-align:center;
+     width:300px;
+     height:100px;
+}
+.leftdate2{
+    padding-top:10px;
+    width:299px;
+    height:100px;
+    float:left;
+    background:#4caf50;
+    border-right:1px solid white;
+}
+.downplan2{
+    padding-top:15px;
+    text-align:center;
+    color:#626262;
+    width:300px;
+    height:30px;
+}
+.leftdown2{
+    float:left;
+    width:300px;
+    height:30px;
+    background-color:white;
+}

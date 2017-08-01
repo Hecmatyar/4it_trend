@@ -1,0 +1,54 @@
+﻿.delivery_block{
+ width: 350px;
+ padding: 10px 0 0;
+ color: white;
+ font-size: 16px;
+ font-family:'Segoe UI';
+ }
+ .delivery_block .delivery_list {
+ padding: 3px 6px 0 6px;
+ height: 28px;
+ cursor: pointer;
+ border-radius: 4px;
+ margin: 0 20px 0 0;
+ color: white;
+ border: 1px solid #5c6982;
+ width: 287px;
+ background: #5c6982;
+ font-family:'Segoe UI';
+ }
+ .delivery_list #btn {
+ 
+ width: 17px;
+ height: 18px;
+ float: right;
+ }
+ .delivery_list span {
+ padding: 2px 0 0 2px;
+ display: block;
+ }
+ .delivery_block ul.cities_list {
+ margin-top: 0px;
+ z-index: 10;
+ background: #5c6982;
+ position: absolute;
+ border-radius: 3px;
+ width: 299px;
+ padding: 0;
+ border: 1px solid #5c6982;
+ display: none;
+ }
+ ul.cities_list li {
+ padding: 6px 9px;
+ list-style-type: none;
+ border-top: 1px solid white;
+ }
+ ul.cities_list li:hover {
+ cursor: pointer;
+ background: white;
+ color:#44556c;
+ }
+ .delivery_block .delivery_text {
+ padding: 3px 5px;
+ margin: 5px 0 0 3px;
+ }

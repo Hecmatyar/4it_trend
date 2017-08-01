@@ -1,0 +1,10 @@
+D:\Download\chatroom-new\ChatRoom\RemoteBase\RemoteBase\bin\Release\RemoteBase.dll
+D:\Download\chatroom-new\ChatRoom\RemoteBase\RemoteBase\bin\Release\RemoteBase.pdb
+D:\Download\chatroom-new\ChatRoom\RemoteBase\RemoteBase\obj\Release\ResolveAssemblyReference.cache
+D:\Download\chatroom-new\ChatRoom\RemoteBase\RemoteBase\obj\Release\RemoteBase.dll
+D:\Download\chatroom-new\ChatRoom\RemoteBase\RemoteBase\obj\Release\RemoteBase.pdb
+D:\GoogleDrive\Универ\3 курс\2 семестр\Сетевые технологии\LB6 .net remoting\Chat\RemoteBase\RemoteBase\bin\Release\RemoteBase.dll
+D:\GoogleDrive\Универ\3 курс\2 семестр\Сетевые технологии\LB6 .net remoting\Chat\RemoteBase\RemoteBase\bin\Release\RemoteBase.pdb
+D:\GoogleDrive\Универ\3 курс\2 семестр\Сетевые технологии\LB6 .net remoting\Chat\RemoteBase\RemoteBase\obj\Release\RemoteBase.dll
+D:\GoogleDrive\Универ\3 курс\2 семестр\Сетевые технологии\LB6 .net remoting\Chat\RemoteBase\RemoteBase\obj\Release\RemoteBase.pdb
+D:\GoogleDrive\Универ\3 курс\2 семестр\Сетевые технологии\LB6 .net remoting\Chat\RemoteBase\RemoteBase\obj\Release\RemoteBase.csprojResolveAssemblyReference.cache

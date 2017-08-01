@@ -1,0 +1,43 @@
+D:\Универ\4 курс\техническая информатика (сетевое программ.)\Лабораторные работы Тех_инф_ПРИН\Лабы\Client\Client\bin\Debug\Client.exe.config
+D:\Универ\4 курс\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\bin\Debug\Client.exe.config
+D:\Универ\4 курс\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+D:\Универ\4 курс\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\obj\Debug\MainWindow.g.cs
+D:\Универ\4 курс\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\obj\Debug\App.g.cs
+D:\Универ\4 курс\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\obj\Debug\Client_MarkupCompile.cache
+D:\Универ\4 курс\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\obj\Debug\Client_MarkupCompile.lref
+D:\Универ\4 курс\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\bin\Debug\Client.exe
+D:\Универ\4 курс\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\bin\Debug\Client.pdb
+D:\Универ\4 курс\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\obj\Debug\MainWindow.baml
+D:\Универ\4 курс\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\obj\Debug\Client.g.resources
+D:\Универ\4 курс\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\obj\Debug\Client.Properties.Resources.resources
+D:\Универ\4 курс\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+D:\Универ\4 курс\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\obj\Debug\Client.exe
+D:\Универ\4 курс\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\obj\Debug\Client.pdb
+D:\Универ\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\bin\Debug\Client.exe.config
+D:\Универ\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\obj\Debug\Client.exe
+D:\Универ\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\obj\Debug\Client.pdb
+D:\Универ\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\bin\Debug\Client.exe
+D:\Универ\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\bin\Debug\Client.pdb
+D:\Универ\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+D:\Универ\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\obj\Debug\MainWindow.g.cs
+D:\Универ\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\obj\Debug\App.g.cs
+D:\Универ\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\obj\Debug\Client_MarkupCompile.cache
+D:\Универ\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\obj\Debug\Client_MarkupCompile.lref
+D:\Универ\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\obj\Debug\MainWindow.baml
+D:\Универ\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\obj\Debug\Client.g.resources
+D:\Универ\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\obj\Debug\Client.Properties.Resources.resources
+D:\Универ\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+H:\university\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\bin\Debug\Client.exe.config
+H:\university\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\bin\Debug\Client.exe
+H:\university\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\bin\Debug\Client.pdb
+H:\university\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+H:\university\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\obj\Debug\MainWindow.g.cs
+H:\university\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\obj\Debug\App.g.cs
+H:\university\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\obj\Debug\Client_MarkupCompile.cache
+H:\university\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\obj\Debug\Client_MarkupCompile.lref
+H:\university\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\obj\Debug\MainWindow.baml
+H:\university\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\obj\Debug\Client.g.resources
+H:\university\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\obj\Debug\Client.Properties.Resources.resources
+H:\university\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+H:\university\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\obj\Debug\Client.exe
+H:\university\4 курс\1 семестр\техническая информатика (сетевое программ.)\Лабы\Лабораторная 1\Лаба1_2\Client\Client\obj\Debug\Client.pdb

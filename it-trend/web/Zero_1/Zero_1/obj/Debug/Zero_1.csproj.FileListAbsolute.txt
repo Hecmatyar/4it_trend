@@ -1,0 +1,103 @@
+D:\Универ\Курсач лето 2016\Zero_1\Zero_1\bin\ApplicationInsights.config
+D:\Универ\Курсач лето 2016\Zero_1\Zero_1\bin\roslyn\csc.exe
+D:\Универ\Курсач лето 2016\Zero_1\Zero_1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Универ\Курсач лето 2016\Zero_1\Zero_1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Универ\Курсач лето 2016\Zero_1\Zero_1\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Универ\Курсач лето 2016\Zero_1\Zero_1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Универ\Курсач лето 2016\Zero_1\Zero_1\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Универ\Курсач лето 2016\Zero_1\Zero_1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Универ\Курсач лето 2016\Zero_1\Zero_1\bin\roslyn\System.Collections.Immutable.dll
+D:\Универ\Курсач лето 2016\Zero_1\Zero_1\bin\roslyn\System.Reflection.Metadata.dll
+D:\Универ\Курсач лето 2016\Zero_1\Zero_1\bin\roslyn\vbc.exe
+D:\Универ\Курсач лето 2016\Zero_1\Zero_1\bin\roslyn\VBCSCompiler.exe
+D:\Универ\Курсач лето 2016\Zero_1\Zero_1\bin\roslyn\VBCSCompiler.exe.config
+D:\Универ\Курсач лето 2016\Zero_1\Zero_1\bin\Zero_1.dll.config
+D:\Универ\Курсач лето 2016\Zero_1\Zero_1\bin\Zero_1.dll
+D:\Универ\Курсач лето 2016\Zero_1\Zero_1\bin\Zero_1.pdb
+D:\Универ\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Универ\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.AI.DependencyCollector.dll
+D:\Универ\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Универ\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Универ\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.AI.Web.dll
+D:\Универ\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.AI.WindowsServer.dll
+D:\Универ\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.ApplicationInsights.dll
+D:\Универ\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Универ\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.AI.DependencyCollector.xml
+D:\Универ\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Универ\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.AI.Web.xml
+D:\Универ\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.AI.WindowsServer.xml
+D:\Универ\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.ApplicationInsights.xml
+D:\Универ\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Универ\Курсач лето 2016\Zero_1\Zero_1\obj\Debug\Zero_1.csprojResolveAssemblyReference.cache
+D:\Универ\Курсач лето 2016\Zero_1\Zero_1\obj\Debug\Zero_1.dll
+D:\Универ\Курсач лето 2016\Zero_1\Zero_1\obj\Debug\Zero_1.pdb
+D:\Универ\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\ApplicationInsights.config
+D:\Универ\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\roslyn\csc.exe
+D:\Универ\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Универ\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Универ\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Универ\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Универ\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Универ\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Универ\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\roslyn\System.Collections.Immutable.dll
+D:\Универ\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\roslyn\System.Reflection.Metadata.dll
+D:\Универ\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\roslyn\vbc.exe
+D:\Универ\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\roslyn\VBCSCompiler.exe
+D:\Универ\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\roslyn\VBCSCompiler.exe.config
+D:\Универ\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\Zero_1.dll.config
+D:\Универ\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\Zero_1.dll
+D:\Универ\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\Zero_1.pdb
+D:\Универ\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Универ\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.AI.DependencyCollector.dll
+D:\Универ\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Универ\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Универ\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.AI.Web.dll
+D:\Универ\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.AI.WindowsServer.dll
+D:\Универ\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.ApplicationInsights.dll
+D:\Универ\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Универ\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.AI.DependencyCollector.xml
+D:\Универ\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Универ\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.AI.Web.xml
+D:\Универ\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.AI.WindowsServer.xml
+D:\Универ\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.ApplicationInsights.xml
+D:\Универ\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Универ\3 курс\Курсач лето 2016\Zero_1\Zero_1\obj\Debug\Zero_1.csprojResolveAssemblyReference.cache
+D:\Универ\3 курс\Курсач лето 2016\Zero_1\Zero_1\obj\Debug\Zero_1.dll
+D:\Универ\3 курс\Курсач лето 2016\Zero_1\Zero_1\obj\Debug\Zero_1.pdb
+D:\Универ\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\nunit.framework.dll
+D:\Универ\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\nunit.framework.xml
+H:\university\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\ApplicationInsights.config
+H:\university\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\roslyn\csc.exe
+H:\university\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\university\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\university\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\university\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\university\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\university\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\university\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\roslyn\System.Collections.Immutable.dll
+H:\university\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\roslyn\System.Reflection.Metadata.dll
+H:\university\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\roslyn\vbc.exe
+H:\university\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\roslyn\VBCSCompiler.exe
+H:\university\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\roslyn\VBCSCompiler.exe.config
+H:\university\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\Zero_1.dll.config
+H:\university\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\Zero_1.dll
+H:\university\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\Zero_1.pdb
+H:\university\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.AI.Agent.Intercept.dll
+H:\university\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.AI.DependencyCollector.dll
+H:\university\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.AI.PerfCounterCollector.dll
+H:\university\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+H:\university\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.AI.Web.dll
+H:\university\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.AI.WindowsServer.dll
+H:\university\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.ApplicationInsights.dll
+H:\university\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\university\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\nunit.framework.dll
+H:\university\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.AI.DependencyCollector.xml
+H:\university\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+H:\university\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.AI.Web.xml
+H:\university\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.AI.WindowsServer.xml
+H:\university\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.ApplicationInsights.xml
+H:\university\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\university\3 курс\Курсач лето 2016\Zero_1\Zero_1\bin\nunit.framework.xml
+H:\university\3 курс\Курсач лето 2016\Zero_1\Zero_1\obj\Debug\Zero_1.csprojResolveAssemblyReference.cache
+H:\university\3 курс\Курсач лето 2016\Zero_1\Zero_1\obj\Debug\Zero_1.dll
+H:\university\3 курс\Курсач лето 2016\Zero_1\Zero_1\obj\Debug\Zero_1.pdb

@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<%@ Master Language="C#" 
+    AutoEventWireup="true" 
+    CodeBehind="MasterPageAdmin.Master.cs" 
+    Inherits="Zero_2.Page.MasterPageAdmin" %>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="/style/stylesheet1.css" rel="stylesheet" type="text/css" />
+    <script src="//code.jquery.com/jquery-latest.js"></script> 
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>    
+    <title>
+        <asp:ContentPlaceHolder ID="title" runat="server">
+    </asp:ContentPlaceHolder>
+    </title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+     
+    <form id="form1" runat="server">       
+    <header>
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <div class="headname">
+            <%-- <img class ="image" style="float:left" src="/Image/logo.jpg" />--%>
+            <ul class ="namefirm">
+                <li><a href="ValidationPage.aspx">MetalTranceIsoliths-Astor</a></li>
+            </ul>
+        </div>
+        <script src="/scripts/authorization.js"></script>             
+            <script>
+                $(document).mouseup(function (e) {
+                    var container = $("#popup1");
+                    if (container.has(e.target).length === 0) {
+                        container.hide();
+                    }
+                });
+                $(document).ready(function(){
+                //Скрыть PopUp при загрузке страницы    
+                    PopUpHide();                    
+                });
+                //Функция отображения PopUp
+                function PopUpShow(){
+                $("#popup1").show();
+                }
+                //Функция скрытия PopUp
+                function PopUpHide(){
+                    $("#popup1").hide();
+                    $(document).hide();
+                }
+            </script>
+        
+        <div class="ul">
+            <ul class="headtext" id="headtxt">
+                <li><a href="ValidationPage.aspx">Аттестация</a></li>
+                <li><a href="DocPage.aspx">Документы</a></li> 
+                <li><a href="ConductingPage_Plan.aspx">Проведение аттестации</a></li>
+                <li><a href="Commision.aspx">Комиссия</a></li>
+                <li><a href="Employees.aspx">Сотрудники</a></li>
+                <%--<li><a href="Default.aspx">Профиль</a></li>
+                 <li><a href="Default.aspx">Контакты</a></li>--%>
+            </ul>
+            <div class="leftexit" id="exitbutton" style="float:right;" >
+                <asp:Button ID="Button1" runat="server" Text="Выход" style="width:76px; height:35px; 
+                    vertical-align:text-top;
+                    color:black; border-radius:5px; background-color:#f38366; color:white; font-size:16px;
+                    font-family:'Segoe UI'; cursor:pointer; border:none; margin-top:16px;" OnClick="Exit_Click"/>
+            </div>
+
+            <div class="b-popup" id="popup1" style="display: none;">
+            <div class="b-popup-content">
+                <asp:Label ID="firm" runat="server" BackColor="White" ForeColor="Black" Text="Вход" Font-Size="24px" Font-Names="Segoe UI"></asp:Label>
+                <a href="javascript:PopUpHide()" style="float:right">X</a>
+                <hr> 
+                <asp:Label ID="Label1" runat="server" BackColor="White" ForeColor="Black"
+                    Text="Для ддоступа ко всем функциям сайта необходимо войти" 
+                    Font-Size="14px" Font-Names="Segoe UI" Width="240px">
+                </asp:Label>
+                <br />
+                <br />
+                <asp:Label ID="Label2" runat="server" BackColor="White" ForeColor="Black"
+                    Text="Логин / iD" 
+                    Font-Size="18px" Font-Names="Segoe UI" Width="240px">
+                </asp:Label>                 
+                <br />
+                <input type="text" size="27"  id="input_login" placeholder="Логин" />
+                <br />
+                <br />
+                <asp:Label ID="Label3" runat="server" BackColor="White" ForeColor="Black"
+                    Text="Пароль" 
+                    Font-Size="18px" Font-Names="Segoe UI" Width="240px">
+                </asp:Label>
+                <br />
+                <input type="password" id="input_password" maxlength="12" size="27" placeholder="*****"/>
+                <br />                
+                <hr>
+                <input name="entry" type="submit" value="Войти" onclick="" style="height:40px; width:140px; text-align:center; 
+                    color:black; border-color:lightgrey; border-radius:5px; background-color:#a72326; color:white; font-size:18px;
+                    font-family:'Segoe UI'; cursor:pointer; border-width:1px"/>
+                
+            </div>
+            </div>
+        </div>
+        <style>
+            hr {
+            border: none; /* Убираем границу */
+            background-color: lightgrey; /* Цвет линии */
+            color: grey; /* Цвет линии для IE6-7 */
+            height: 1px; /* Толщина линии */
+            margin-top:10px;
+            margin-bottom:10px;
+            }
+        </style>
+        
+    </header>        
+    
+    <div class="all">        
+        <asp:ContentPlaceHolder ID="body" runat="server">
+            
+        </asp:ContentPlaceHolder>
+    </div>                   
+      
+     <%--
+    <footer class="footer" style="background:black; height:60px;">
+
+    </footer>
+    --%>
+    </form>
+            
+</body>
+</html>

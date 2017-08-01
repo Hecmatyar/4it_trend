@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Page/MasterPageAdmin.Master" 
+    AutoEventWireup="true" CodeBehind="Conducting.master.cs" Inherits="Zero_2.Page.Conducting" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="title" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
+    <link href="/style/StyleCond.css" rel="stylesheet" type="text/css" />  
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="body" runat="server">
+    <header class="head2">
+        <ul class="headtext2">
+            <li><a href="ConductingPage_Plan.aspx">Плановая аттестация</a></li>
+            <li><a href="ConductingPage_Re.aspx">Повторная аттестация</a></li>
+            <li><a href="ConductingPage_Request.aspx">Заявки</a></li>
+            <li><a href="ConductingPage_UnPlan.aspx">Внеплановая аттестация</a></li>                
+        </ul> 
+    </header>
+    <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+    <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+        <ContentTemplate>
+    <div class="second" >
+        <asp:ContentPlaceHolder ID="SecondLevel" runat="server">
+
+        </asp:ContentPlaceHolder>
+    </div>
+    </ContentTemplate>
+        </asp:UpdatePanel>
+</asp:Content>

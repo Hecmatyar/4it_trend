@@ -1,0 +1,1839 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="SelectLog">
+        <s:complexType />
+      </s:element>
+      <s:element name="SelectLogResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SelectLogResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Insert">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="login" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="action" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="OverAttestation">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="table" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="set" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="OverAttestationResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="ApproveAttestationPlan">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="date1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="date2" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ApproveAttestationPlanResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="ApproveAttestationRequest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="date1" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ApproveAttestationRequestResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="ApproveAttestationUnPlan">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="date1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="date2" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ApproveAttestationUnPlanResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="ApproveAttestationRe">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="date1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="date2" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ApproveAttestationReResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="ApproveAttestation">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="column" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ApproveAttestationResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="ApproveAttestationReverse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="column" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ApproveAttestationReverseResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="ApproveDataDelete">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="column" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ApproveDataDeleteResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="ApproveData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="id" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="column" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ApproveDataResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="Government">
+        <s:complexType />
+      </s:element>
+      <s:element name="GovernmentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GovernmentResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Fill_Commission">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="fill" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Fill_CommissionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Fill_CommissionResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Commission_Appointed">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="p" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Commission_AppointedResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Commission_AppointedResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="StatementReverse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="workbook" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="StatementReverseResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="Statement">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="workbook" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="StatementResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="ProFile">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="login" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="array1" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="array2" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="array3" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ProFileResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="array1" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="array2" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="array3" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Authentification">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="login" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="who" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AuthentificationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AuthentificationResult" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="who" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Date_Plan">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="val" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="val1" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Date_PlanResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Date_PlanResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Date_Repeated">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="val" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Date_RepeatedResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Date_RepeatedResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DateRepeated">
+        <s:complexType />
+      </s:element>
+      <s:element name="DateRepeatedResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DateRepeatedResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Date_UnPlan">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="val" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Date_UnPlanResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Date_UnPlanResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DateSurprise">
+        <s:complexType />
+      </s:element>
+      <s:element name="DateSurpriseResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DateSurpriseResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Exists">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="where" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExistsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ExistsResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Date_Surprise">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="val" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Date_SurpriseResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Date_SurpriseResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Validation_Duty">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="where" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Validation_DutyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Validation_DutyResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Commision">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="where" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CommisionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CommisionResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WantRice">
+        <s:complexType />
+      </s:element>
+      <s:element name="WantRiceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WantRiceResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Date_Validation">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="val" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Date_ValidationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Date_ValidationResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Request">
+        <s:complexType />
+      </s:element>
+      <s:element name="RequestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="RequestResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DateRequest">
+        <s:complexType />
+      </s:element>
+      <s:element name="DateRequestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DateRequestResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="wh">
+        <s:complexType />
+      </s:element>
+      <s:element name="whResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="whResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Employees">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="where" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EmployeesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EmployeesResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GovernmentMan">
+        <s:complexType />
+      </s:element>
+      <s:element name="GovernmentManResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GovernmentManResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WA_Validation">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="where" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WA_ValidationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WA_ValidationResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WA_ValidationRequest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="where" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WA_ValidationRequestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WA_ValidationRequestResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WA_GovernmentMan">
+        <s:complexType />
+      </s:element>
+      <s:element name="WA_GovernmentManResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WA_GovernmentManResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WA_CommissionMan">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="where" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WA_CommissionManResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WA_CommissionManResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WA_Duty">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="column" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="id" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WA_DutyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="WA_DutyResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WA_UpdateDuty">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="table" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="column" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="where" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WA_UpdateDutyResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="WA_EndAttestation">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="bl" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WA_EndAttestationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WA_EndAttestationResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WA_ReportRequest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="where" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WA_ReportRequestResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="WA_Delete">
+        <s:complexType />
+      </s:element>
+      <s:element name="WA_DeleteResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="SelectLogSoapIn">
+    <wsdl:part name="parameters" element="tns:SelectLog" />
+  </wsdl:message>
+  <wsdl:message name="SelectLogSoapOut">
+    <wsdl:part name="parameters" element="tns:SelectLogResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertSoapIn">
+    <wsdl:part name="parameters" element="tns:Insert" />
+  </wsdl:message>
+  <wsdl:message name="InsertSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertResponse" />
+  </wsdl:message>
+  <wsdl:message name="OverAttestationSoapIn">
+    <wsdl:part name="parameters" element="tns:OverAttestation" />
+  </wsdl:message>
+  <wsdl:message name="OverAttestationSoapOut">
+    <wsdl:part name="parameters" element="tns:OverAttestationResponse" />
+  </wsdl:message>
+  <wsdl:message name="ApproveAttestationPlanSoapIn">
+    <wsdl:part name="parameters" element="tns:ApproveAttestationPlan" />
+  </wsdl:message>
+  <wsdl:message name="ApproveAttestationPlanSoapOut">
+    <wsdl:part name="parameters" element="tns:ApproveAttestationPlanResponse" />
+  </wsdl:message>
+  <wsdl:message name="ApproveAttestationRequestSoapIn">
+    <wsdl:part name="parameters" element="tns:ApproveAttestationRequest" />
+  </wsdl:message>
+  <wsdl:message name="ApproveAttestationRequestSoapOut">
+    <wsdl:part name="parameters" element="tns:ApproveAttestationRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="ApproveAttestationUnPlanSoapIn">
+    <wsdl:part name="parameters" element="tns:ApproveAttestationUnPlan" />
+  </wsdl:message>
+  <wsdl:message name="ApproveAttestationUnPlanSoapOut">
+    <wsdl:part name="parameters" element="tns:ApproveAttestationUnPlanResponse" />
+  </wsdl:message>
+  <wsdl:message name="ApproveAttestationReSoapIn">
+    <wsdl:part name="parameters" element="tns:ApproveAttestationRe" />
+  </wsdl:message>
+  <wsdl:message name="ApproveAttestationReSoapOut">
+    <wsdl:part name="parameters" element="tns:ApproveAttestationReResponse" />
+  </wsdl:message>
+  <wsdl:message name="ApproveAttestationSoapIn">
+    <wsdl:part name="parameters" element="tns:ApproveAttestation" />
+  </wsdl:message>
+  <wsdl:message name="ApproveAttestationSoapOut">
+    <wsdl:part name="parameters" element="tns:ApproveAttestationResponse" />
+  </wsdl:message>
+  <wsdl:message name="ApproveAttestationReverseSoapIn">
+    <wsdl:part name="parameters" element="tns:ApproveAttestationReverse" />
+  </wsdl:message>
+  <wsdl:message name="ApproveAttestationReverseSoapOut">
+    <wsdl:part name="parameters" element="tns:ApproveAttestationReverseResponse" />
+  </wsdl:message>
+  <wsdl:message name="ApproveDataDeleteSoapIn">
+    <wsdl:part name="parameters" element="tns:ApproveDataDelete" />
+  </wsdl:message>
+  <wsdl:message name="ApproveDataDeleteSoapOut">
+    <wsdl:part name="parameters" element="tns:ApproveDataDeleteResponse" />
+  </wsdl:message>
+  <wsdl:message name="ApproveDataSoapIn">
+    <wsdl:part name="parameters" element="tns:ApproveData" />
+  </wsdl:message>
+  <wsdl:message name="ApproveDataSoapOut">
+    <wsdl:part name="parameters" element="tns:ApproveDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="GovernmentSoapIn">
+    <wsdl:part name="parameters" element="tns:Government" />
+  </wsdl:message>
+  <wsdl:message name="GovernmentSoapOut">
+    <wsdl:part name="parameters" element="tns:GovernmentResponse" />
+  </wsdl:message>
+  <wsdl:message name="Fill_CommissionSoapIn">
+    <wsdl:part name="parameters" element="tns:Fill_Commission" />
+  </wsdl:message>
+  <wsdl:message name="Fill_CommissionSoapOut">
+    <wsdl:part name="parameters" element="tns:Fill_CommissionResponse" />
+  </wsdl:message>
+  <wsdl:message name="Commission_AppointedSoapIn">
+    <wsdl:part name="parameters" element="tns:Commission_Appointed" />
+  </wsdl:message>
+  <wsdl:message name="Commission_AppointedSoapOut">
+    <wsdl:part name="parameters" element="tns:Commission_AppointedResponse" />
+  </wsdl:message>
+  <wsdl:message name="StatementReverseSoapIn">
+    <wsdl:part name="parameters" element="tns:StatementReverse" />
+  </wsdl:message>
+  <wsdl:message name="StatementReverseSoapOut">
+    <wsdl:part name="parameters" element="tns:StatementReverseResponse" />
+  </wsdl:message>
+  <wsdl:message name="StatementSoapIn">
+    <wsdl:part name="parameters" element="tns:Statement" />
+  </wsdl:message>
+  <wsdl:message name="StatementSoapOut">
+    <wsdl:part name="parameters" element="tns:StatementResponse" />
+  </wsdl:message>
+  <wsdl:message name="ProFileSoapIn">
+    <wsdl:part name="parameters" element="tns:ProFile" />
+  </wsdl:message>
+  <wsdl:message name="ProFileSoapOut">
+    <wsdl:part name="parameters" element="tns:ProFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="AuthentificationSoapIn">
+    <wsdl:part name="parameters" element="tns:Authentification" />
+  </wsdl:message>
+  <wsdl:message name="AuthentificationSoapOut">
+    <wsdl:part name="parameters" element="tns:AuthentificationResponse" />
+  </wsdl:message>
+  <wsdl:message name="Date_PlanSoapIn">
+    <wsdl:part name="parameters" element="tns:Date_Plan" />
+  </wsdl:message>
+  <wsdl:message name="Date_PlanSoapOut">
+    <wsdl:part name="parameters" element="tns:Date_PlanResponse" />
+  </wsdl:message>
+  <wsdl:message name="Date_RepeatedSoapIn">
+    <wsdl:part name="parameters" element="tns:Date_Repeated" />
+  </wsdl:message>
+  <wsdl:message name="Date_RepeatedSoapOut">
+    <wsdl:part name="parameters" element="tns:Date_RepeatedResponse" />
+  </wsdl:message>
+  <wsdl:message name="DateRepeatedSoapIn">
+    <wsdl:part name="parameters" element="tns:DateRepeated" />
+  </wsdl:message>
+  <wsdl:message name="DateRepeatedSoapOut">
+    <wsdl:part name="parameters" element="tns:DateRepeatedResponse" />
+  </wsdl:message>
+  <wsdl:message name="Date_UnPlanSoapIn">
+    <wsdl:part name="parameters" element="tns:Date_UnPlan" />
+  </wsdl:message>
+  <wsdl:message name="Date_UnPlanSoapOut">
+    <wsdl:part name="parameters" element="tns:Date_UnPlanResponse" />
+  </wsdl:message>
+  <wsdl:message name="DateSurpriseSoapIn">
+    <wsdl:part name="parameters" element="tns:DateSurprise" />
+  </wsdl:message>
+  <wsdl:message name="DateSurpriseSoapOut">
+    <wsdl:part name="parameters" element="tns:DateSurpriseResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExistsSoapIn">
+    <wsdl:part name="parameters" element="tns:Exists" />
+  </wsdl:message>
+  <wsdl:message name="ExistsSoapOut">
+    <wsdl:part name="parameters" element="tns:ExistsResponse" />
+  </wsdl:message>
+  <wsdl:message name="Date_SurpriseSoapIn">
+    <wsdl:part name="parameters" element="tns:Date_Surprise" />
+  </wsdl:message>
+  <wsdl:message name="Date_SurpriseSoapOut">
+    <wsdl:part name="parameters" element="tns:Date_SurpriseResponse" />
+  </wsdl:message>
+  <wsdl:message name="Validation_DutySoapIn">
+    <wsdl:part name="parameters" element="tns:Validation_Duty" />
+  </wsdl:message>
+  <wsdl:message name="Validation_DutySoapOut">
+    <wsdl:part name="parameters" element="tns:Validation_DutyResponse" />
+  </wsdl:message>
+  <wsdl:message name="CommisionSoapIn">
+    <wsdl:part name="parameters" element="tns:Commision" />
+  </wsdl:message>
+  <wsdl:message name="CommisionSoapOut">
+    <wsdl:part name="parameters" element="tns:CommisionResponse" />
+  </wsdl:message>
+  <wsdl:message name="WantRiceSoapIn">
+    <wsdl:part name="parameters" element="tns:WantRice" />
+  </wsdl:message>
+  <wsdl:message name="WantRiceSoapOut">
+    <wsdl:part name="parameters" element="tns:WantRiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="Date_ValidationSoapIn">
+    <wsdl:part name="parameters" element="tns:Date_Validation" />
+  </wsdl:message>
+  <wsdl:message name="Date_ValidationSoapOut">
+    <wsdl:part name="parameters" element="tns:Date_ValidationResponse" />
+  </wsdl:message>
+  <wsdl:message name="RequestSoapIn">
+    <wsdl:part name="parameters" element="tns:Request" />
+  </wsdl:message>
+  <wsdl:message name="RequestSoapOut">
+    <wsdl:part name="parameters" element="tns:RequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="DateRequestSoapIn">
+    <wsdl:part name="parameters" element="tns:DateRequest" />
+  </wsdl:message>
+  <wsdl:message name="DateRequestSoapOut">
+    <wsdl:part name="parameters" element="tns:DateRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="whSoapIn">
+    <wsdl:part name="parameters" element="tns:wh" />
+  </wsdl:message>
+  <wsdl:message name="whSoapOut">
+    <wsdl:part name="parameters" element="tns:whResponse" />
+  </wsdl:message>
+  <wsdl:message name="EmployeesSoapIn">
+    <wsdl:part name="parameters" element="tns:Employees" />
+  </wsdl:message>
+  <wsdl:message name="EmployeesSoapOut">
+    <wsdl:part name="parameters" element="tns:EmployeesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GovernmentManSoapIn">
+    <wsdl:part name="parameters" element="tns:GovernmentMan" />
+  </wsdl:message>
+  <wsdl:message name="GovernmentManSoapOut">
+    <wsdl:part name="parameters" element="tns:GovernmentManResponse" />
+  </wsdl:message>
+  <wsdl:message name="WA_ValidationSoapIn">
+    <wsdl:part name="parameters" element="tns:WA_Validation" />
+  </wsdl:message>
+  <wsdl:message name="WA_ValidationSoapOut">
+    <wsdl:part name="parameters" element="tns:WA_ValidationResponse" />
+  </wsdl:message>
+  <wsdl:message name="WA_ValidationRequestSoapIn">
+    <wsdl:part name="parameters" element="tns:WA_ValidationRequest" />
+  </wsdl:message>
+  <wsdl:message name="WA_ValidationRequestSoapOut">
+    <wsdl:part name="parameters" element="tns:WA_ValidationRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="WA_GovernmentManSoapIn">
+    <wsdl:part name="parameters" element="tns:WA_GovernmentMan" />
+  </wsdl:message>
+  <wsdl:message name="WA_GovernmentManSoapOut">
+    <wsdl:part name="parameters" element="tns:WA_GovernmentManResponse" />
+  </wsdl:message>
+  <wsdl:message name="WA_CommissionManSoapIn">
+    <wsdl:part name="parameters" element="tns:WA_CommissionMan" />
+  </wsdl:message>
+  <wsdl:message name="WA_CommissionManSoapOut">
+    <wsdl:part name="parameters" element="tns:WA_CommissionManResponse" />
+  </wsdl:message>
+  <wsdl:message name="WA_DutySoapIn">
+    <wsdl:part name="parameters" element="tns:WA_Duty" />
+  </wsdl:message>
+  <wsdl:message name="WA_DutySoapOut">
+    <wsdl:part name="parameters" element="tns:WA_DutyResponse" />
+  </wsdl:message>
+  <wsdl:message name="WA_UpdateDutySoapIn">
+    <wsdl:part name="parameters" element="tns:WA_UpdateDuty" />
+  </wsdl:message>
+  <wsdl:message name="WA_UpdateDutySoapOut">
+    <wsdl:part name="parameters" element="tns:WA_UpdateDutyResponse" />
+  </wsdl:message>
+  <wsdl:message name="WA_EndAttestationSoapIn">
+    <wsdl:part name="parameters" element="tns:WA_EndAttestation" />
+  </wsdl:message>
+  <wsdl:message name="WA_EndAttestationSoapOut">
+    <wsdl:part name="parameters" element="tns:WA_EndAttestationResponse" />
+  </wsdl:message>
+  <wsdl:message name="WA_ReportRequestSoapIn">
+    <wsdl:part name="parameters" element="tns:WA_ReportRequest" />
+  </wsdl:message>
+  <wsdl:message name="WA_ReportRequestSoapOut">
+    <wsdl:part name="parameters" element="tns:WA_ReportRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="WA_DeleteSoapIn">
+    <wsdl:part name="parameters" element="tns:WA_Delete" />
+  </wsdl:message>
+  <wsdl:message name="WA_DeleteSoapOut">
+    <wsdl:part name="parameters" element="tns:WA_DeleteResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ValidationSoap">
+    <wsdl:operation name="SelectLog">
+      <wsdl:input message="tns:SelectLogSoapIn" />
+      <wsdl:output message="tns:SelectLogSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Insert">
+      <wsdl:input message="tns:InsertSoapIn" />
+      <wsdl:output message="tns:InsertSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="OverAttestation">
+      <wsdl:input message="tns:OverAttestationSoapIn" />
+      <wsdl:output message="tns:OverAttestationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ApproveAttestationPlan">
+      <wsdl:input message="tns:ApproveAttestationPlanSoapIn" />
+      <wsdl:output message="tns:ApproveAttestationPlanSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ApproveAttestationRequest">
+      <wsdl:input message="tns:ApproveAttestationRequestSoapIn" />
+      <wsdl:output message="tns:ApproveAttestationRequestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ApproveAttestationUnPlan">
+      <wsdl:input message="tns:ApproveAttestationUnPlanSoapIn" />
+      <wsdl:output message="tns:ApproveAttestationUnPlanSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ApproveAttestationRe">
+      <wsdl:input message="tns:ApproveAttestationReSoapIn" />
+      <wsdl:output message="tns:ApproveAttestationReSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ApproveAttestation">
+      <wsdl:input message="tns:ApproveAttestationSoapIn" />
+      <wsdl:output message="tns:ApproveAttestationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ApproveAttestationReverse">
+      <wsdl:input message="tns:ApproveAttestationReverseSoapIn" />
+      <wsdl:output message="tns:ApproveAttestationReverseSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ApproveDataDelete">
+      <wsdl:input message="tns:ApproveDataDeleteSoapIn" />
+      <wsdl:output message="tns:ApproveDataDeleteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ApproveData">
+      <wsdl:input message="tns:ApproveDataSoapIn" />
+      <wsdl:output message="tns:ApproveDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Government">
+      <wsdl:input message="tns:GovernmentSoapIn" />
+      <wsdl:output message="tns:GovernmentSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Fill_Commission">
+      <wsdl:input message="tns:Fill_CommissionSoapIn" />
+      <wsdl:output message="tns:Fill_CommissionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Commission_Appointed">
+      <wsdl:input message="tns:Commission_AppointedSoapIn" />
+      <wsdl:output message="tns:Commission_AppointedSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="StatementReverse">
+      <wsdl:input message="tns:StatementReverseSoapIn" />
+      <wsdl:output message="tns:StatementReverseSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Statement">
+      <wsdl:input message="tns:StatementSoapIn" />
+      <wsdl:output message="tns:StatementSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ProFile">
+      <wsdl:input message="tns:ProFileSoapIn" />
+      <wsdl:output message="tns:ProFileSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Authentification">
+      <wsdl:input message="tns:AuthentificationSoapIn" />
+      <wsdl:output message="tns:AuthentificationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Date_Plan">
+      <wsdl:input message="tns:Date_PlanSoapIn" />
+      <wsdl:output message="tns:Date_PlanSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Date_Repeated">
+      <wsdl:input message="tns:Date_RepeatedSoapIn" />
+      <wsdl:output message="tns:Date_RepeatedSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DateRepeated">
+      <wsdl:input message="tns:DateRepeatedSoapIn" />
+      <wsdl:output message="tns:DateRepeatedSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Date_UnPlan">
+      <wsdl:input message="tns:Date_UnPlanSoapIn" />
+      <wsdl:output message="tns:Date_UnPlanSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DateSurprise">
+      <wsdl:input message="tns:DateSurpriseSoapIn" />
+      <wsdl:output message="tns:DateSurpriseSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Exists">
+      <wsdl:input message="tns:ExistsSoapIn" />
+      <wsdl:output message="tns:ExistsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Date_Surprise">
+      <wsdl:input message="tns:Date_SurpriseSoapIn" />
+      <wsdl:output message="tns:Date_SurpriseSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Validation_Duty">
+      <wsdl:input message="tns:Validation_DutySoapIn" />
+      <wsdl:output message="tns:Validation_DutySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Commision">
+      <wsdl:input message="tns:CommisionSoapIn" />
+      <wsdl:output message="tns:CommisionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WantRice">
+      <wsdl:input message="tns:WantRiceSoapIn" />
+      <wsdl:output message="tns:WantRiceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Date_Validation">
+      <wsdl:input message="tns:Date_ValidationSoapIn" />
+      <wsdl:output message="tns:Date_ValidationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Request">
+      <wsdl:input message="tns:RequestSoapIn" />
+      <wsdl:output message="tns:RequestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DateRequest">
+      <wsdl:input message="tns:DateRequestSoapIn" />
+      <wsdl:output message="tns:DateRequestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="wh">
+      <wsdl:input message="tns:whSoapIn" />
+      <wsdl:output message="tns:whSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Employees">
+      <wsdl:input message="tns:EmployeesSoapIn" />
+      <wsdl:output message="tns:EmployeesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GovernmentMan">
+      <wsdl:input message="tns:GovernmentManSoapIn" />
+      <wsdl:output message="tns:GovernmentManSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WA_Validation">
+      <wsdl:input message="tns:WA_ValidationSoapIn" />
+      <wsdl:output message="tns:WA_ValidationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WA_ValidationRequest">
+      <wsdl:input message="tns:WA_ValidationRequestSoapIn" />
+      <wsdl:output message="tns:WA_ValidationRequestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WA_GovernmentMan">
+      <wsdl:input message="tns:WA_GovernmentManSoapIn" />
+      <wsdl:output message="tns:WA_GovernmentManSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WA_CommissionMan">
+      <wsdl:input message="tns:WA_CommissionManSoapIn" />
+      <wsdl:output message="tns:WA_CommissionManSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WA_Duty">
+      <wsdl:input message="tns:WA_DutySoapIn" />
+      <wsdl:output message="tns:WA_DutySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WA_UpdateDuty">
+      <wsdl:input message="tns:WA_UpdateDutySoapIn" />
+      <wsdl:output message="tns:WA_UpdateDutySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WA_EndAttestation">
+      <wsdl:input message="tns:WA_EndAttestationSoapIn" />
+      <wsdl:output message="tns:WA_EndAttestationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WA_ReportRequest">
+      <wsdl:input message="tns:WA_ReportRequestSoapIn" />
+      <wsdl:output message="tns:WA_ReportRequestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WA_Delete">
+      <wsdl:input message="tns:WA_DeleteSoapIn" />
+      <wsdl:output message="tns:WA_DeleteSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ValidationSoap" type="tns:ValidationSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SelectLog">
+      <soap:operation soapAction="http://tempuri.org/SelectLog" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert">
+      <soap:operation soapAction="http://tempuri.org/Insert" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OverAttestation">
+      <soap:operation soapAction="http://tempuri.org/OverAttestation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ApproveAttestationPlan">
+      <soap:operation soapAction="http://tempuri.org/ApproveAttestationPlan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ApproveAttestationRequest">
+      <soap:operation soapAction="http://tempuri.org/ApproveAttestationRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ApproveAttestationUnPlan">
+      <soap:operation soapAction="http://tempuri.org/ApproveAttestationUnPlan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ApproveAttestationRe">
+      <soap:operation soapAction="http://tempuri.org/ApproveAttestationRe" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ApproveAttestation">
+      <soap:operation soapAction="http://tempuri.org/ApproveAttestation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ApproveAttestationReverse">
+      <soap:operation soapAction="http://tempuri.org/ApproveAttestationReverse" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ApproveDataDelete">
+      <soap:operation soapAction="http://tempuri.org/ApproveDataDelete" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ApproveData">
+      <soap:operation soapAction="http://tempuri.org/ApproveData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Government">
+      <soap:operation soapAction="http://tempuri.org/Government" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Fill_Commission">
+      <soap:operation soapAction="http://tempuri.org/Fill_Commission" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Commission_Appointed">
+      <soap:operation soapAction="http://tempuri.org/Commission_Appointed" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StatementReverse">
+      <soap:operation soapAction="http://tempuri.org/StatementReverse" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Statement">
+      <soap:operation soapAction="http://tempuri.org/Statement" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ProFile">
+      <soap:operation soapAction="http://tempuri.org/ProFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Authentification">
+      <soap:operation soapAction="http://tempuri.org/Authentification" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Date_Plan">
+      <soap:operation soapAction="http://tempuri.org/Date_Plan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Date_Repeated">
+      <soap:operation soapAction="http://tempuri.org/Date_Repeated" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DateRepeated">
+      <soap:operation soapAction="http://tempuri.org/DateRepeated" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Date_UnPlan">
+      <soap:operation soapAction="http://tempuri.org/Date_UnPlan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DateSurprise">
+      <soap:operation soapAction="http://tempuri.org/DateSurprise" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Exists">
+      <soap:operation soapAction="http://tempuri.org/Exists" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Date_Surprise">
+      <soap:operation soapAction="http://tempuri.org/Date_Surprise" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Validation_Duty">
+      <soap:operation soapAction="http://tempuri.org/Validation_Duty" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Commision">
+      <soap:operation soapAction="http://tempuri.org/Commision" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WantRice">
+      <soap:operation soapAction="http://tempuri.org/WantRice" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Date_Validation">
+      <soap:operation soapAction="http://tempuri.org/Date_Validation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Request">
+      <soap:operation soapAction="http://tempuri.org/Request" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DateRequest">
+      <soap:operation soapAction="http://tempuri.org/DateRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="wh">
+      <soap:operation soapAction="http://tempuri.org/wh" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Employees">
+      <soap:operation soapAction="http://tempuri.org/Employees" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GovernmentMan">
+      <soap:operation soapAction="http://tempuri.org/GovernmentMan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WA_Validation">
+      <soap:operation soapAction="http://tempuri.org/WA_Validation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WA_ValidationRequest">
+      <soap:operation soapAction="http://tempuri.org/WA_ValidationRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WA_GovernmentMan">
+      <soap:operation soapAction="http://tempuri.org/WA_GovernmentMan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WA_CommissionMan">
+      <soap:operation soapAction="http://tempuri.org/WA_CommissionMan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WA_Duty">
+      <soap:operation soapAction="http://tempuri.org/WA_Duty" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WA_UpdateDuty">
+      <soap:operation soapAction="http://tempuri.org/WA_UpdateDuty" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WA_EndAttestation">
+      <soap:operation soapAction="http://tempuri.org/WA_EndAttestation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WA_ReportRequest">
+      <soap:operation soapAction="http://tempuri.org/WA_ReportRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WA_Delete">
+      <soap:operation soapAction="http://tempuri.org/WA_Delete" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ValidationSoap12" type="tns:ValidationSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SelectLog">
+      <soap12:operation soapAction="http://tempuri.org/SelectLog" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert">
+      <soap12:operation soapAction="http://tempuri.org/Insert" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OverAttestation">
+      <soap12:operation soapAction="http://tempuri.org/OverAttestation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ApproveAttestationPlan">
+      <soap12:operation soapAction="http://tempuri.org/ApproveAttestationPlan" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ApproveAttestationRequest">
+      <soap12:operation soapAction="http://tempuri.org/ApproveAttestationRequest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ApproveAttestationUnPlan">
+      <soap12:operation soapAction="http://tempuri.org/ApproveAttestationUnPlan" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ApproveAttestationRe">
+      <soap12:operation soapAction="http://tempuri.org/ApproveAttestationRe" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ApproveAttestation">
+      <soap12:operation soapAction="http://tempuri.org/ApproveAttestation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ApproveAttestationReverse">
+      <soap12:operation soapAction="http://tempuri.org/ApproveAttestationReverse" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ApproveDataDelete">
+      <soap12:operation soapAction="http://tempuri.org/ApproveDataDelete" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ApproveData">
+      <soap12:operation soapAction="http://tempuri.org/ApproveData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Government">
+      <soap12:operation soapAction="http://tempuri.org/Government" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Fill_Commission">
+      <soap12:operation soapAction="http://tempuri.org/Fill_Commission" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Commission_Appointed">
+      <soap12:operation soapAction="http://tempuri.org/Commission_Appointed" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StatementReverse">
+      <soap12:operation soapAction="http://tempuri.org/StatementReverse" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Statement">
+      <soap12:operation soapAction="http://tempuri.org/Statement" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ProFile">
+      <soap12:operation soapAction="http://tempuri.org/ProFile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Authentification">
+      <soap12:operation soapAction="http://tempuri.org/Authentification" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Date_Plan">
+      <soap12:operation soapAction="http://tempuri.org/Date_Plan" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Date_Repeated">
+      <soap12:operation soapAction="http://tempuri.org/Date_Repeated" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DateRepeated">
+      <soap12:operation soapAction="http://tempuri.org/DateRepeated" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Date_UnPlan">
+      <soap12:operation soapAction="http://tempuri.org/Date_UnPlan" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DateSurprise">
+      <soap12:operation soapAction="http://tempuri.org/DateSurprise" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Exists">
+      <soap12:operation soapAction="http://tempuri.org/Exists" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Date_Surprise">
+      <soap12:operation soapAction="http://tempuri.org/Date_Surprise" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Validation_Duty">
+      <soap12:operation soapAction="http://tempuri.org/Validation_Duty" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Commision">
+      <soap12:operation soapAction="http://tempuri.org/Commision" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WantRice">
+      <soap12:operation soapAction="http://tempuri.org/WantRice" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Date_Validation">
+      <soap12:operation soapAction="http://tempuri.org/Date_Validation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Request">
+      <soap12:operation soapAction="http://tempuri.org/Request" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DateRequest">
+      <soap12:operation soapAction="http://tempuri.org/DateRequest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="wh">
+      <soap12:operation soapAction="http://tempuri.org/wh" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Employees">
+      <soap12:operation soapAction="http://tempuri.org/Employees" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GovernmentMan">
+      <soap12:operation soapAction="http://tempuri.org/GovernmentMan" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WA_Validation">
+      <soap12:operation soapAction="http://tempuri.org/WA_Validation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WA_ValidationRequest">
+      <soap12:operation soapAction="http://tempuri.org/WA_ValidationRequest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WA_GovernmentMan">
+      <soap12:operation soapAction="http://tempuri.org/WA_GovernmentMan" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WA_CommissionMan">
+      <soap12:operation soapAction="http://tempuri.org/WA_CommissionMan" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WA_Duty">
+      <soap12:operation soapAction="http://tempuri.org/WA_Duty" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WA_UpdateDuty">
+      <soap12:operation soapAction="http://tempuri.org/WA_UpdateDuty" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WA_EndAttestation">
+      <soap12:operation soapAction="http://tempuri.org/WA_EndAttestation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WA_ReportRequest">
+      <soap12:operation soapAction="http://tempuri.org/WA_ReportRequest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WA_Delete">
+      <soap12:operation soapAction="http://tempuri.org/WA_Delete" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Validation">
+    <wsdl:port name="ValidationSoap" binding="tns:ValidationSoap">
+      <soap:address location="http://localhost:51955/Validation.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ValidationSoap12" binding="tns:ValidationSoap12">
+      <soap12:address location="http://localhost:51955/Validation.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

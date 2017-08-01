@@ -1,0 +1,42 @@
+D:\Download\chatroom-new\ChatRoom\RemoteServer\RemoteServer\bin\Debug\RemoteServer.exe
+D:\Download\chatroom-new\ChatRoom\RemoteServer\RemoteServer\bin\Debug\RemoteServer.pdb
+D:\Download\chatroom-new\ChatRoom\RemoteServer\RemoteServer\bin\Debug\RemoteBase.dll
+D:\Download\chatroom-new\ChatRoom\RemoteServer\RemoteServer\bin\Debug\RemoteBase.pdb
+D:\Download\chatroom-new\ChatRoom\RemoteServer\RemoteServer\obj\Debug\ResolveAssemblyReference.cache
+D:\Download\chatroom-new\ChatRoom\RemoteServer\RemoteServer\obj\Debug\RemoteServer.Form1.resources
+D:\Download\chatroom-new\ChatRoom\RemoteServer\RemoteServer\obj\Debug\RemoteServer.Properties.Resources.resources
+D:\Download\chatroom-new\ChatRoom\RemoteServer\RemoteServer\obj\Debug\RemoteServer.csproj.GenerateResource.Cache
+D:\Download\chatroom-new\ChatRoom\RemoteServer\RemoteServer\obj\Debug\RemoteServer.exe
+D:\Download\chatroom-new\ChatRoom\RemoteServer\RemoteServer\obj\Debug\RemoteServer.pdb
+D:\GoogleDrive\Универ\3 курс\2 семестр\Сетевые технологии\LB6 .net remoting\Chat\RemoteServer\RemoteServer\obj\Debug\RemoteServer.exe
+D:\GoogleDrive\Универ\3 курс\2 семестр\Сетевые технологии\LB6 .net remoting\Chat\RemoteServer\RemoteServer\obj\Debug\RemoteServer.pdb
+D:\GoogleDrive\Универ\3 курс\2 семестр\Сетевые технологии\LB6 .net remoting\Chat\RemoteServer\RemoteServer\bin\Debug\RemoteServer.exe
+D:\GoogleDrive\Универ\3 курс\2 семестр\Сетевые технологии\LB6 .net remoting\Chat\RemoteServer\RemoteServer\bin\Debug\RemoteServer.pdb
+D:\GoogleDrive\Универ\3 курс\2 семестр\Сетевые технологии\LB6 .net remoting\Chat\RemoteServer\RemoteServer\bin\Debug\RemoteBase.dll
+D:\GoogleDrive\Универ\3 курс\2 семестр\Сетевые технологии\LB6 .net remoting\Chat\RemoteServer\RemoteServer\bin\Debug\RemoteBase.pdb
+D:\GoogleDrive\Универ\3 курс\2 семестр\Сетевые технологии\LB6 .net remoting\Chat\RemoteServer\RemoteServer\obj\Debug\RemoteServer.csprojResolveAssemblyReference.cache
+D:\GoogleDrive\Универ\3 курс\2 семестр\Сетевые технологии\LB6 .net remoting\Chat\RemoteServer\RemoteServer\obj\Debug\RemoteServer.Form1.resources
+D:\GoogleDrive\Универ\3 курс\2 семестр\Сетевые технологии\LB6 .net remoting\Chat\RemoteServer\RemoteServer\obj\Debug\RemoteServer.Properties.Resources.resources
+D:\GoogleDrive\Универ\3 курс\2 семестр\Сетевые технологии\LB6 .net remoting\Chat\RemoteServer\RemoteServer\obj\Debug\RemoteServer.csproj.GenerateResource.Cache
+D:\Универ\3 курс\3 курс 2 семестр\Сетевые технологии\Лаба5\5_individ_2\Chat\RemoteServer\RemoteServer\bin\Debug\RemoteServer.exe.config
+D:\Универ\3 курс\3 курс 2 семестр\Сетевые технологии\Лаба5\5_individ_2\Chat\RemoteServer\RemoteServer\obj\Debug\RemoteServer.exe
+D:\Универ\3 курс\3 курс 2 семестр\Сетевые технологии\Лаба5\5_individ_2\Chat\RemoteServer\RemoteServer\obj\Debug\RemoteServer.pdb
+D:\Универ\3 курс\3 курс 2 семестр\Сетевые технологии\Лаба5\5_individ_2\Chat\RemoteServer\RemoteServer\bin\Debug\RemoteServer.exe
+D:\Универ\3 курс\3 курс 2 семестр\Сетевые технологии\Лаба5\5_individ_2\Chat\RemoteServer\RemoteServer\bin\Debug\RemoteServer.pdb
+D:\Универ\3 курс\3 курс 2 семестр\Сетевые технологии\Лаба5\5_individ_2\Chat\RemoteServer\RemoteServer\bin\Debug\RemoteBase.dll
+D:\Универ\3 курс\3 курс 2 семестр\Сетевые технологии\Лаба5\5_individ_2\Chat\RemoteServer\RemoteServer\bin\Debug\RemoteBase.pdb
+D:\Универ\3 курс\3 курс 2 семестр\Сетевые технологии\Лаба5\5_individ_2\Chat\RemoteServer\RemoteServer\obj\Debug\RemoteServer.csprojResolveAssemblyReference.cache
+D:\Универ\3 курс\3 курс 2 семестр\Сетевые технологии\Лаба5\5_individ_2\Chat\RemoteServer\RemoteServer\obj\Debug\RemoteServer.Form1.resources
+D:\Универ\3 курс\3 курс 2 семестр\Сетевые технологии\Лаба5\5_individ_2\Chat\RemoteServer\RemoteServer\obj\Debug\RemoteServer.Properties.Resources.resources
+D:\Универ\3 курс\3 курс 2 семестр\Сетевые технологии\Лаба5\5_individ_2\Chat\RemoteServer\RemoteServer\obj\Debug\RemoteServer.csproj.GenerateResource.Cache
+H:\university\3 курс\3 курс 2 семестр\Сетевые технологии\Лаба5\5_individ_2\RemoteServer\RemoteServer\bin\Debug\RemoteServer.exe.config
+H:\university\3 курс\3 курс 2 семестр\Сетевые технологии\Лаба5\5_individ_2\RemoteServer\RemoteServer\bin\Debug\RemoteServer.exe
+H:\university\3 курс\3 курс 2 семестр\Сетевые технологии\Лаба5\5_individ_2\RemoteServer\RemoteServer\bin\Debug\RemoteServer.pdb
+H:\university\3 курс\3 курс 2 семестр\Сетевые технологии\Лаба5\5_individ_2\RemoteServer\RemoteServer\bin\Debug\RemoteBase.dll
+H:\university\3 курс\3 курс 2 семестр\Сетевые технологии\Лаба5\5_individ_2\RemoteServer\RemoteServer\bin\Debug\RemoteBase.pdb
+H:\university\3 курс\3 курс 2 семестр\Сетевые технологии\Лаба5\5_individ_2\RemoteServer\RemoteServer\obj\Debug\RemoteServer.csprojResolveAssemblyReference.cache
+H:\university\3 курс\3 курс 2 семестр\Сетевые технологии\Лаба5\5_individ_2\RemoteServer\RemoteServer\obj\Debug\RemoteServer.Form1.resources
+H:\university\3 курс\3 курс 2 семестр\Сетевые технологии\Лаба5\5_individ_2\RemoteServer\RemoteServer\obj\Debug\RemoteServer.Properties.Resources.resources
+H:\university\3 курс\3 курс 2 семестр\Сетевые технологии\Лаба5\5_individ_2\RemoteServer\RemoteServer\obj\Debug\RemoteServer.csproj.GenerateResource.Cache
+H:\university\3 курс\3 курс 2 семестр\Сетевые технологии\Лаба5\5_individ_2\RemoteServer\RemoteServer\obj\Debug\RemoteServer.exe
+H:\university\3 курс\3 курс 2 семестр\Сетевые технологии\Лаба5\5_individ_2\RemoteServer\RemoteServer\obj\Debug\RemoteServer.pdb

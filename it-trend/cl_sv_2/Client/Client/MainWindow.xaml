@@ -1,0 +1,93 @@
+﻿<Window x:Class="Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Client"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="400">
+    <Grid>
+        <Button x:Name="Vis_data" Content="  Запросить  " VerticalAlignment="Top"  FontSize="14" Cursor="Hand" Height="34" Margin="10,405,0,0" FontFamily="Segoe UI Light" IsCancel="True" HorizontalAlignment="Left" Click="Vis_data_Click" >
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="BorderBrush" Value="#FF50AA75"/>
+                    <Setter Property="Background" Value="White"/>
+                    <Setter Property="Foreground" Value="Black"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Background="{TemplateBinding Background}"  BorderBrush="#FFA6382D" BorderThickness="1,1,1,1">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="#FFA6382D"/>
+                            <Setter Property="Foreground" Value="White"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
+        <ListBox x:Name="txtChatBox" Height="270" Margin="8,10,8,0" VerticalAlignment="Top" VerticalContentAlignment="Top"/>
+        <Button x:Name="Send" Content="  Отправить  " VerticalAlignment="Top" BorderBrush="#FF5884B8" FontSize="14" Cursor="Hand" Height="34" Margin="0,286,8,0" FontFamily="Segoe UI Light" IsCancel="True" HorizontalAlignment="Right" Width="80" Click="Send_Click" >
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="BorderBrush" Value="#FF50AA75"/>
+                    <Setter Property="Background" Value="White"/>
+                    <Setter Property="Foreground" Value="Black"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Background="{TemplateBinding Background}"  BorderBrush="#FF4374A6" BorderThickness="1,1,1,1">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="#FF4374A6"/>
+                            <Setter Property="Foreground" Value="White"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
+        <TextBox x:Name="txtMessage" Height="34" Margin="10,286,90,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="14" KeyDown="txtMessage_KeyDown"/>
+        <Label x:Name="label1" Content="Запросить объем переданных данных в чате за все время" HorizontalAlignment="Left" Margin="10,380,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="bytedata" Content="Объем данных: 0 байт" HorizontalAlignment="Left" Margin="101,408,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Grid x:Name="Log" Margin="0" Background="#FF3972A2" Visibility="Hidden">
+            <TextBox x:Name="NameClient" Margin="0,181,0,0" TextWrapping="Wrap" FontFamily="Segoe UI Light" FontSize="16" Background="#FF3972A2" BorderBrush="White" Foreground="White" Width="190" TextAlignment="Center" VerticalAlignment="Top"/>
+            <Label x:Name="label" Content="&#x9;&#x9;   Введите ваш логин,&#xA;который будет использоваться при пересылке сообщений" HorizontalContentAlignment="Center" Margin="0,120,0,0" FontFamily="Segoe UI Light" Foreground="White" FontSize="14" Height="52" VerticalAlignment="Top"/>
+            <Button x:Name="Login" Content="  Начать чат  " BorderBrush="#FF5884B8" FontSize="14" Cursor="Hand" Margin="0,268,0,0" FontFamily="Segoe UI Light" IsCancel="True" Height="34" VerticalAlignment="Top" Width="140" Click="Login_Click" >
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Setter Property="BorderBrush" Value="#FF3972A2"/>
+                        <Setter Property="Background" Value="#FF3972A2"/>
+                        <Setter Property="Foreground" Value="White"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="{x:Type Button}">
+                                    <Border Background="{TemplateBinding Background}"  BorderBrush="#FF5884B8" BorderThickness="1,1,1,1">
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#FF467EAE"/>
+                                <Setter Property="Foreground" Value="White"/>
+                                <Setter Property="BorderBrush" Value="White"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+            </Button>
+        </Grid>
+
+    </Grid>
+</Window>

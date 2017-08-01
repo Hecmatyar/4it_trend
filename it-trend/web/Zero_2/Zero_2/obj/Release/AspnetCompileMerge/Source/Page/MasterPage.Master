@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<%@ Master Language="C#" 
+    AutoEventWireup="true" 
+    CodeBehind="MasterPage.master.cs" 
+    Inherits="Zero_2.Page.MasterPage"    
+     %>   
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="/style/stylesheet1.css" rel="stylesheet" type="text/css" />
+    <title>
+        <asp:ContentPlaceHolder ID="title" runat="server">
+    </asp:ContentPlaceHolder>
+    </title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <header>
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <div class="headname">           
+            <ul class ="namefirm">
+                <li><a href="ValidationPage.aspx">MetalTranceIsoliths-Astor</a></li>
+            </ul>
+        </div>
+        <script src="/scripts/authorization.js"></script>             
+            <script>
+                $(document).mouseup(function (e) {
+                    var container = $("#popup1");
+                    if (container.has(e.target).length === 0) {
+                        container.hide();
+                    }
+                });
+                $(document).ready(function(){
+                //Скрыть PopUp при загрузке страницы    
+                    PopUpHide();                    
+                });
+                //Функция отображения PopUp
+                function PopUpShow(){
+                $("#popup1").show();
+                }
+                //Функция скрытия PopUp
+                function PopUpHide(){
+                    $("#popup1").hide();
+                    $(document).hide();
+                }
+            </script>
+        
+        <div class="ul">
+            <ul class="headtext" id="headtxt">
+                <li><a href="ValidationPage.aspx">Аттестация</a></li>
+                <li><a href="DocPage.aspx">Документы</a></li> 
+                                 
+                <li><a href="Contacts.aspx">Контакты</a></li>
+            </ul>                 
+            <div class="leftenter" id="authorizationbutton" style="float:right;">                
+                <a href="javascript:PopUpShow()">Вход</a>
+            </div>
+
+              <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+    <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+        <ContentTemplate>
+            <div class="b-popup" id="popup1" style="display: none;">
+            <div class="b-popup-content">
+                <asp:Label ID="firm" runat="server" BackColor="White" ForeColor="Black" Text="Вход" Font-Size="24px" Font-Names="Segoe UI"></asp:Label>
+                <hr> 
+                <asp:Label ID="Label1" runat="server" BackColor="White" ForeColor="Black"
+                    Text="Для доступа ко всем функциям сайта необходимо войти" 
+                    Font-Size="14px" Font-Names="Segoe UI" Width="220px">
+                </asp:Label>
+                <br />
+                <asp:RegularExpressionValidator 
+                    ID="RegularExpressionValidator1" 
+                    runat="server" 
+                    ControlToValidate="input_login"
+                    ErrorMessage="Неверный логин"
+                    ValidationExpression="^[a-zA-Z0-9]+$"
+                    ForeColor="Red"
+                    FontFamily="Segoe UI"
+                    Font-Size="Small">            
+                </asp:RegularExpressionValidator>                
+                <br />
+                <asp:Label ID="Label2" runat="server" BackColor="White" ForeColor="Black"
+                    Text="Логин / iD" 
+                    Font-Size="18px" Font-Names="Segoe UI" Width="240px">
+                </asp:Label>                 
+                <br />                
+                <input type="text" id="input_login" maxlength="20" size="26" placeholder="Логин" runat="server" 
+                    style="font-size:16px; font-family:'Segoe UI'; margin-top:6px;"/>
+                <br />
+                <asp:RegularExpressionValidator 
+                    ID="RegularExpressionValidator2" 
+                    runat="server" 
+                    ControlToValidate="input_password"
+                    ErrorMessage="Неверный пароль"
+                    ValidationExpression="^[a-zA-Z0-9]+$"
+                    ForeColor="Red"
+                    Font-Family="Segoe UI"
+                    Font-Size="Small">            
+                </asp:RegularExpressionValidator> 
+                <br />
+                <asp:Label ID="Label3" runat="server" BackColor="White" ForeColor="Black"
+                    Text="Пароль" 
+                    Font-Size="18px" Font-Names="Segoe UI" Width="240px">
+                </asp:Label>
+                <br />                
+                <input type="password" id="input_password" maxlength="12" size="26" placeholder="*****" runat="server" 
+                    style="font-size:16px; font-family:'Segoe UI'; margin-top:6px;"/>
+                <br />                
+                <hr>                
+                <asp:Button ID="Button1" UseSubmitBehavior="false"  runat="server" Text="Войти" 
+                    style="height:40px; width:140px; text-align:center; 
+                    color:black; border-color:lightgrey; border-radius:5px; background-color:#4abfb4; color:white; font-size:18px;
+                    font-family:'Segoe UI'; cursor:pointer; border:none;" OnClick="Button1_Click1"/>
+                <%--<asp:RegularExpressionValidator runat="server" ID="ValidateEmail" 
+                    ControlToValidate="input_password" ValidationExpression="\w{4,12}"
+                    ErrorMessage="Некорректный формат E-mail" Display="dynamic">*
+                </asp:RegularExpressionValidator>--%>
+            </div>
+            </div>
+            </ContentTemplate>
+        </asp:UpdatePanel>
+        </div>
+        <style>
+            hr {
+            border: none; /* Убираем границу */
+            background-color: lightgrey; /* Цвет линии */
+            color: grey; /* Цвет линии для IE6-7 */
+            height: 1px; /* Толщина линии */
+            margin-top:10px;
+            margin-bottom:10px;
+            }
+        </style>
+        
+    </header>    
+        <%--<asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+    <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+        <ContentTemplate>--%>
+    <div class="all">        
+        <asp:ContentPlaceHolder ID="body" runat="server">
+            
+        </asp:ContentPlaceHolder>
+    </div>        
+   <%--  </ContentTemplate>
+        </asp:UpdatePanel>--%>
+    </form>
+</body>
+</html>

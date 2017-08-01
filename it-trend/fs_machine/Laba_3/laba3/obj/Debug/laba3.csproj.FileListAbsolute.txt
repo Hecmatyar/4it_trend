@@ -1,0 +1,70 @@
+D:\универ\3 курс\ТАиФЯ_ЛБ\laba3\laba3\bin\Debug\laba3.exe.config
+D:\универ\3 курс\ТАиФЯ_ЛБ\laba3\laba3\bin\Debug\laba3.exe
+D:\универ\3 курс\ТАиФЯ_ЛБ\laba3\laba3\bin\Debug\laba3.pdb
+D:\универ\3 курс\ТАиФЯ_ЛБ\laba3\laba3\obj\Debug\laba3.csprojResolveAssemblyReference.cache
+D:\универ\3 курс\ТАиФЯ_ЛБ\laba3\laba3\obj\Debug\MainWindow.g.cs
+D:\универ\3 курс\ТАиФЯ_ЛБ\laba3\laba3\obj\Debug\App.g.cs
+D:\универ\3 курс\ТАиФЯ_ЛБ\laba3\laba3\obj\Debug\laba3_MarkupCompile.cache
+D:\универ\3 курс\ТАиФЯ_ЛБ\laba3\laba3\obj\Debug\laba3_MarkupCompile.lref
+D:\универ\3 курс\ТАиФЯ_ЛБ\laba3\laba3\obj\Debug\MainWindow.baml
+D:\универ\3 курс\ТАиФЯ_ЛБ\laba3\laba3\obj\Debug\laba3.g.resources
+D:\универ\3 курс\ТАиФЯ_ЛБ\laba3\laba3\obj\Debug\laba3.Properties.Resources.resources
+D:\универ\3 курс\ТАиФЯ_ЛБ\laba3\laba3\obj\Debug\laba3.csproj.GenerateResource.Cache
+D:\универ\3 курс\ТАиФЯ_ЛБ\laba3\laba3\obj\Debug\laba3.exe
+D:\универ\3 курс\ТАиФЯ_ЛБ\laba3\laba3\obj\Debug\laba3.pdb
+D:\Dropbox\Универ\1 семестр\Теория автоматов и формальных языков\Лабораторные\Кушнир 3\laba3\bin\Debug\laba3.exe.config
+D:\Dropbox\Универ\1 семестр\Теория автоматов и формальных языков\Лабораторные\Кушнир 3\laba3\obj\Debug\laba3.exe
+D:\Dropbox\Универ\1 семестр\Теория автоматов и формальных языков\Лабораторные\Кушнир 3\laba3\obj\Debug\laba3.pdb
+D:\Dropbox\Универ\1 семестр\Теория автоматов и формальных языков\Лабораторные\Кушнир 3\laba3\bin\Debug\laba3.exe
+D:\Dropbox\Универ\1 семестр\Теория автоматов и формальных языков\Лабораторные\Кушнир 3\laba3\bin\Debug\laba3.pdb
+D:\Dropbox\Универ\1 семестр\Теория автоматов и формальных языков\Лабораторные\Кушнир 3\laba3\obj\Debug\laba3.csprojResolveAssemblyReference.cache
+D:\Dropbox\Универ\1 семестр\Теория автоматов и формальных языков\Лабораторные\Кушнир 3\laba3\obj\Debug\MainWindow.g.cs
+D:\Dropbox\Универ\1 семестр\Теория автоматов и формальных языков\Лабораторные\Кушнир 3\laba3\obj\Debug\App.g.cs
+D:\Dropbox\Универ\1 семестр\Теория автоматов и формальных языков\Лабораторные\Кушнир 3\laba3\obj\Debug\laba3_MarkupCompile.cache
+D:\Dropbox\Универ\1 семестр\Теория автоматов и формальных языков\Лабораторные\Кушнир 3\laba3\obj\Debug\laba3_MarkupCompile.lref
+D:\Dropbox\Универ\1 семестр\Теория автоматов и формальных языков\Лабораторные\Кушнир 3\laba3\obj\Debug\MainWindow.baml
+D:\Dropbox\Универ\1 семестр\Теория автоматов и формальных языков\Лабораторные\Кушнир 3\laba3\obj\Debug\laba3.g.resources
+D:\Dropbox\Универ\1 семестр\Теория автоматов и формальных языков\Лабораторные\Кушнир 3\laba3\obj\Debug\laba3.Properties.Resources.resources
+D:\Dropbox\Универ\1 семестр\Теория автоматов и формальных языков\Лабораторные\Кушнир 3\laba3\obj\Debug\laba3.csproj.GenerateResource.Cache
+D:\универ\Курсач_Зима\Laba_3\laba3\bin\Debug\laba3.exe.config
+D:\универ\Курсач_Зима\Laba_3\laba3\obj\Debug\laba3.exe
+D:\универ\Курсач_Зима\Laba_3\laba3\obj\Debug\laba3.pdb
+D:\универ\Курсач_Зима\Laba_3\laba3\bin\Debug\laba3.exe
+D:\универ\Курсач_Зима\Laba_3\laba3\bin\Debug\laba3.pdb
+D:\универ\Курсач_Зима\Laba_3\laba3\obj\Debug\laba3.csprojResolveAssemblyReference.cache
+D:\универ\Курсач_Зима\Laba_3\laba3\obj\Debug\MainWindow.g.cs
+D:\универ\Курсач_Зима\Laba_3\laba3\obj\Debug\App.g.cs
+D:\универ\Курсач_Зима\Laba_3\laba3\obj\Debug\laba3_MarkupCompile.cache
+D:\универ\Курсач_Зима\Laba_3\laba3\obj\Debug\laba3_MarkupCompile.lref
+D:\универ\Курсач_Зима\Laba_3\laba3\obj\Debug\MainWindow.baml
+D:\универ\Курсач_Зима\Laba_3\laba3\obj\Debug\laba3.g.resources
+D:\универ\Курсач_Зима\Laba_3\laba3\obj\Debug\laba3.Properties.Resources.resources
+D:\универ\Курсач_Зима\Laba_3\laba3\obj\Debug\laba3.csproj.GenerateResource.Cache
+D:\Универ\3 курс\3 курс 1 семестр\Курсач_Зима\Laba_3\laba3\bin\Debug\laba3.exe.config
+D:\Универ\3 курс\3 курс 1 семестр\Курсач_Зима\Laba_3\laba3\obj\Debug\laba3.exe
+D:\Универ\3 курс\3 курс 1 семестр\Курсач_Зима\Laba_3\laba3\obj\Debug\laba3.pdb
+D:\Универ\3 курс\3 курс 1 семестр\Курсач_Зима\Laba_3\laba3\bin\Debug\laba3.exe
+D:\Универ\3 курс\3 курс 1 семестр\Курсач_Зима\Laba_3\laba3\bin\Debug\laba3.pdb
+D:\Универ\3 курс\3 курс 1 семестр\Курсач_Зима\Laba_3\laba3\obj\Debug\laba3.csprojResolveAssemblyReference.cache
+D:\Универ\3 курс\3 курс 1 семестр\Курсач_Зима\Laba_3\laba3\obj\Debug\MainWindow.g.cs
+D:\Универ\3 курс\3 курс 1 семестр\Курсач_Зима\Laba_3\laba3\obj\Debug\App.g.cs
+D:\Универ\3 курс\3 курс 1 семестр\Курсач_Зима\Laba_3\laba3\obj\Debug\laba3_MarkupCompile.cache
+D:\Универ\3 курс\3 курс 1 семестр\Курсач_Зима\Laba_3\laba3\obj\Debug\laba3_MarkupCompile.lref
+D:\Универ\3 курс\3 курс 1 семестр\Курсач_Зима\Laba_3\laba3\obj\Debug\MainWindow.baml
+D:\Универ\3 курс\3 курс 1 семестр\Курсач_Зима\Laba_3\laba3\obj\Debug\laba3.g.resources
+D:\Универ\3 курс\3 курс 1 семестр\Курсач_Зима\Laba_3\laba3\obj\Debug\laba3.Properties.Resources.resources
+D:\Универ\3 курс\3 курс 1 семестр\Курсач_Зима\Laba_3\laba3\obj\Debug\laba3.csproj.GenerateResource.Cache
+H:\university\3 курс\3 курс 1 семестр\Курсач_Зима\Laba_3\laba3\bin\Debug\laba3.exe.config
+H:\university\3 курс\3 курс 1 семестр\Курсач_Зима\Laba_3\laba3\bin\Debug\laba3.exe
+H:\university\3 курс\3 курс 1 семестр\Курсач_Зима\Laba_3\laba3\bin\Debug\laba3.pdb
+H:\university\3 курс\3 курс 1 семестр\Курсач_Зима\Laba_3\laba3\obj\Debug\laba3.csprojResolveAssemblyReference.cache
+H:\university\3 курс\3 курс 1 семестр\Курсач_Зима\Laba_3\laba3\obj\Debug\MainWindow.g.cs
+H:\university\3 курс\3 курс 1 семестр\Курсач_Зима\Laba_3\laba3\obj\Debug\App.g.cs
+H:\university\3 курс\3 курс 1 семестр\Курсач_Зима\Laba_3\laba3\obj\Debug\laba3_MarkupCompile.cache
+H:\university\3 курс\3 курс 1 семестр\Курсач_Зима\Laba_3\laba3\obj\Debug\laba3_MarkupCompile.lref
+H:\university\3 курс\3 курс 1 семестр\Курсач_Зима\Laba_3\laba3\obj\Debug\MainWindow.baml
+H:\university\3 курс\3 курс 1 семестр\Курсач_Зима\Laba_3\laba3\obj\Debug\laba3.g.resources
+H:\university\3 курс\3 курс 1 семестр\Курсач_Зима\Laba_3\laba3\obj\Debug\laba3.Properties.Resources.resources
+H:\university\3 курс\3 курс 1 семестр\Курсач_Зима\Laba_3\laba3\obj\Debug\laba3.csproj.GenerateResource.Cache
+H:\university\3 курс\3 курс 1 семестр\Курсач_Зима\Laba_3\laba3\obj\Debug\laba3.exe
+H:\university\3 курс\3 курс 1 семестр\Курсач_Зима\Laba_3\laba3\obj\Debug\laba3.pdb
